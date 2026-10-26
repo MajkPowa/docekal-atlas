@@ -24,7 +24,17 @@ Produkční sestavení: `npm run build`. Výstup v `dist/` je statický web. Př
 - Čtyři parcely jsou dle posudku ve vlastnictví společností Field, nikoliv přímém vlastnictví fyzické osoby. Detail uvádí vlastníka ze zdroje.
 - Ceny jednotlivých parcel jsou za celou parcelu; detail zohledňuje podíl. Ceny stavebních celků zahrnují související pozemky a nesmějí se násobit jejich počtem.
 
-## Zájmy a souvislosti
+## Fotografie a úplné karty nemovitostí
+
+Sekce Fotografie obsahuje 61 unikátních fotografií vlastního majetku (64 výskytů v posudku), 31 historických katastrálních výřezů, 6 plánů/legend a 370 skutečných ortofoto náhledů ČÚZK. Všech 393 parcel má alespoň jeden doložený obrazový podklad; některé snímky zachycují širší lokalitu nebo skupinu LV, což je vždy výslovně označeno. Srovnávací fotografie cizích nemovitostí nejsou zařazeny.
+
+Každý z šesti stavebních celků má vlastní úplnou kartu s celou fotodokumentací, souvisejícími parcelami, zájemci a ověřenými technickými údaji; celkem bylo doplněno 304 citovaných faktů. Kliknutí na parcelní řádek otevře úplnou kartu, mapa nabízí zkrácený detail s tlačítkem pro úplný přehled.
+
+Snímky lze rozkliknout, procházet šipkami či klávesami, zvětšit až na 500 %, posouvat a stáhnout v původním rozlišení posudku. Ortofota mají samostatné přepínatelné SVG hranic, shodně registrované s JPEG. Datum stažení ortofota a společné datum místního šetření jsou odlišeny od neověřeného data pořízení konkrétního snímku.
+
+Manifesty: `public/data/photo-catalog.json`, `parcel-media.json`, `building-details.json`. Média: `public/photos/` a `public/media/ortho/`. Všechny obrázky jsou lokální součástí webu; galerie nenačítá nedoložené fotografie z cizích realitních nabídek.
+
+## Evidence zájmů
 
 78 záznamů z uživatelem dodaných e-mailů, 71 unikátních parcel majetku se zájmem. Tři žádosti o převod pachtu jsou samostatné souvislosti mimo oceňovaný soubor. Čtyři parcely mají dva zájemce. Zvažovaný, podmíněný a projevený zájem jsou odlišeny. Částka Pacalova e-mailu 3 402 172 Kč se liší od součtu sedmi položek posudku 3 027 261 Kč; dashboard uvádí obě.
 

@@ -1,0 +1,2655 @@
+{
+  "source": {
+    "title": "Znalecký posudek č. 081650/2025",
+    "reportDate": "2025-10-17",
+    "inspectionDate": "2025-09-18",
+    "file": "/posudek.pdf"
+  },
+  "buildings": [
+    {
+      "id": "strmilov-384",
+      "summary": "Samostatný rodinný dům se dvěma byty 3+1, částečným sklepem, zahradou, garáží a skladem v ulici Tyršova ve Strmilově.",
+      "reportDate": "2025-10-17",
+      "inspectionDate": "2025-09-18",
+      "sections": [
+        {
+          "title": "Časový a zdrojový rámec",
+          "facts": [
+            {
+              "label": "Ocenění a vyhotovení posudku",
+              "value": "17. 10. 2025",
+              "sourcePages": [
+                1
+              ]
+            },
+            {
+              "label": "Místní šetření s fotodokumentací",
+              "value": "18. 9. 2025",
+              "sourcePages": [
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Poloha a přístup",
+          "facts": [
+            {
+              "label": "Lokalita",
+              "value": "Tyršova, intravilán města Strmilov",
+              "sourcePages": [
+                8
+              ]
+            },
+            {
+              "label": "Příjezd",
+              "value": "Zpevněná komunikace ve vlastnictví města",
+              "sourcePages": [
+                8
+              ]
+            },
+            {
+              "label": "Terén",
+              "value": "Rovinatý",
+              "sourcePages": [
+                8
+              ]
+            },
+            {
+              "label": "Okolí",
+              "value": "Převážně rodinné domy",
+              "sourcePages": [
+                8
+              ]
+            },
+            {
+              "label": "Parkování",
+              "value": "Na vlastních pozemcích",
+              "sourcePages": [
+                8
+              ]
+            },
+            {
+              "label": "Vybavenost města",
+              "value": "MŠ, ZŠ, obecní úřad, pošta, obchod s potravinami",
+              "sourcePages": [
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Stavební uspořádání a stav",
+          "facts": [
+            {
+              "label": "Podlaží",
+              "value": "Částečné podsklepení, 2 nadzemní podlaží, bez obytného podkroví",
+              "sourcePages": [
+                8
+              ]
+            },
+            {
+              "label": "Bytové jednotky",
+              "value": "Dva byty 3+1, po jednom v 1. a 2. NP",
+              "sourcePages": [
+                8
+              ]
+            },
+            {
+              "label": "Rok výstavby",
+              "value": "Přibližně 1960, průběžné modernizace",
+              "sourcePages": [
+                9
+              ]
+            },
+            {
+              "label": "Technický stav",
+              "value": "Dobrý; vybavení 1. NP v původním stavu, byt ve 2. NP po rekonstrukci",
+              "sourcePages": [
+                9
+              ]
+            },
+            {
+              "label": "Územní plán – popis stavby",
+              "value": "Plochy smíšené obytné",
+              "sourcePages": [
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Konstrukce a vybavení",
+          "facts": [
+            {
+              "label": "Základy a zdivo",
+              "value": "Betonové základy, cihelné zdivo, rovné stropy",
+              "sourcePages": [
+                8
+              ]
+            },
+            {
+              "label": "Střecha",
+              "value": "Dřevěný krov, valbová střecha, eternitová krytina, bleskosvod",
+              "sourcePages": [
+                8
+              ]
+            },
+            {
+              "label": "Klempířské prvky",
+              "value": "Pozinkovaný plech",
+              "sourcePages": [
+                9
+              ]
+            },
+            {
+              "label": "Fasáda",
+              "value": "Břízolit, bez vnějších obkladů",
+              "sourcePages": [
+                9
+              ]
+            },
+            {
+              "label": "Okna",
+              "value": "Plastová s izolačními dvojskly",
+              "sourcePages": [
+                9
+              ]
+            },
+            {
+              "label": "Schodiště a dveře",
+              "value": "Dřevěné schodiště; ocelové zárubně a běžná dřevěná křídla",
+              "sourcePages": [
+                9
+              ]
+            },
+            {
+              "label": "Podlahy",
+              "value": "Dřevěná prkna a vlysy, koberec, keramická dlažba",
+              "sourcePages": [
+                9
+              ]
+            },
+            {
+              "label": "Povrchy",
+              "value": "Hladké vápenné omítky; keramické obklady v koupelnách a za kuchyňskými linkami",
+              "sourcePages": [
+                9
+              ]
+            },
+            {
+              "label": "Kuchyně 1. NP",
+              "value": "Starší kuchyňská linka a volně stojící sporák",
+              "sourcePages": [
+                9
+              ]
+            },
+            {
+              "label": "Kuchyně 2. NP",
+              "value": "Standardní linka s vestavěnými spotřebiči",
+              "sourcePages": [
+                9
+              ]
+            },
+            {
+              "label": "Koupelny",
+              "value": "1. NP: vana, umyvadlo, WC s nádržkou. 2. NP: rohová vana, umyvadlo, závěsné WC.",
+              "sourcePages": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sítě a vytápění",
+          "facts": [
+            {
+              "label": "Elektřina",
+              "value": "230/400 V, jističe",
+              "sourcePages": [
+                9
+              ]
+            },
+            {
+              "label": "Voda a odpady",
+              "value": "Vodovod a kanalizace",
+              "sourcePages": [
+                9
+              ]
+            },
+            {
+              "label": "Plyn",
+              "value": "Přiveden, v objektu nevyužíván",
+              "sourcePages": [
+                9
+              ]
+            },
+            {
+              "label": "Vytápění",
+              "value": "Centrální kotel na tuhá paliva; dále uvedena kamna",
+              "sourcePages": [
+                9
+              ]
+            },
+            {
+              "label": "Teplá voda",
+              "value": "Elektrické bojlery",
+              "sourcePages": [
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Příslušenství a související parcely",
+          "facts": [
+            {
+              "label": "Před domem",
+              "value": "Předzahrádka a přístřešek pro parkování",
+              "sourcePages": [
+                8
+              ]
+            },
+            {
+              "label": "Za domem",
+              "value": "Zahrada se skladem a garáží",
+              "sourcePages": [
+                8
+              ]
+            },
+            {
+              "label": "Další příslušenství",
+              "value": "Garáž a sklad přibližného stáří 55 let; kopaná studna s čerpadlem; přístřešek přibližně z roku 2015; skleník",
+              "sourcePages": [
+                9
+              ]
+            },
+            {
+              "label": "Dům – st. 407",
+              "value": "136 m² zastavěné plochy a nádvoří",
+              "sourcePages": [
+                8
+              ]
+            },
+            {
+              "label": "Garáž – st. 835",
+              "value": "63 m² zastavěné plochy a nádvoří",
+              "sourcePages": [
+                8
+              ]
+            },
+            {
+              "label": "Jiná stavba – st. 836",
+              "value": "69 m² zastavěné plochy a nádvoří",
+              "sourcePages": [
+                8
+              ]
+            },
+            {
+              "label": "Zahrada – 2968/1",
+              "value": "2 230 m²",
+              "sourcePages": [
+                8
+              ]
+            },
+            {
+              "label": "Pozemky funkčního celku",
+              "value": "2 498 m² dle porovnávací tabulky",
+              "sourcePages": [
+                64
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Výměry pro ocenění",
+          "facts": [
+            {
+              "label": "Podlahová plocha domu",
+              "value": "226,45 m² bez plochy terasy",
+              "sourcePages": [
+                10
+              ]
+            },
+            {
+              "label": "Započitatelná plocha",
+              "value": "208,60 m² pro cenové porovnání",
+              "sourcePages": [
+                10
+              ]
+            },
+            {
+              "label": "Terasa",
+              "value": "14,50 m²; pro porovnání uvažována jednou polovinou, tj. 7,25 m²",
+              "sourcePages": [
+                10
+              ]
+            },
+            {
+              "label": "Sklep",
+              "value": "Ve výměře pro porovnání uvažován jako příslušenství",
+              "sourcePages": [
+                10
+              ]
+            },
+            {
+              "label": "Zastavěná plocha 1. NP a 2. NP",
+              "value": "136 m² v každém podlaží",
+              "sourcePages": [
+                9
+              ]
+            },
+            {
+              "label": "Zastavěná plocha 1. PP",
+              "value": "25,11 m²",
+              "sourcePages": [
+                9
+              ]
+            },
+            {
+              "label": "Obestavěný prostor",
+              "value": "1 044,57 m³ včetně zastřešení",
+              "sourcePages": [
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Místnosti a plochy",
+          "facts": [
+            {
+              "label": "1. PP – Kotelna",
+              "value": "6,25 m²",
+              "sourcePages": [
+                10
+              ]
+            },
+            {
+              "label": "1. PP – Chodba",
+              "value": "9,20 m²",
+              "sourcePages": [
+                10
+              ]
+            },
+            {
+              "label": "1. PP – Sklad",
+              "value": "4,65 m²",
+              "sourcePages": [
+                10
+              ]
+            },
+            {
+              "label": "1. NP – Vstupní chodba",
+              "value": "12,10 m²",
+              "sourcePages": [
+                10
+              ]
+            },
+            {
+              "label": "1. NP – Komora",
+              "value": "1,80 m²",
+              "sourcePages": [
+                10
+              ]
+            },
+            {
+              "label": "1. NP – Jídelna",
+              "value": "16,00 m²",
+              "sourcePages": [
+                10
+              ]
+            },
+            {
+              "label": "1. NP – Pokoj 1",
+              "value": "20,80 m²",
+              "sourcePages": [
+                10
+              ]
+            },
+            {
+              "label": "1. NP – Pokoj 2",
+              "value": "21,00 m²",
+              "sourcePages": [
+                10
+              ]
+            },
+            {
+              "label": "1. NP – Pokoj 3",
+              "value": "16,15 m²",
+              "sourcePages": [
+                10
+              ]
+            },
+            {
+              "label": "1. NP – Koupelna s WC",
+              "value": "4,30 m²",
+              "sourcePages": [
+                10
+              ]
+            },
+            {
+              "label": "1. NP – Zádveří",
+              "value": "2,60 m²",
+              "sourcePages": [
+                10
+              ]
+            },
+            {
+              "label": "1. NP – Kuchyň",
+              "value": "4,40 m²",
+              "sourcePages": [
+                10
+              ]
+            },
+            {
+              "label": "2. NP – Chodba",
+              "value": "5,40 m²",
+              "sourcePages": [
+                10
+              ]
+            },
+            {
+              "label": "2. NP – Komora",
+              "value": "14,15 m²",
+              "sourcePages": [
+                10
+              ]
+            },
+            {
+              "label": "2. NP – Kuchyň s jídelnou",
+              "value": "21,50 m²",
+              "sourcePages": [
+                10
+              ]
+            },
+            {
+              "label": "2. NP – Pokoj 1",
+              "value": "22,00 m²",
+              "sourcePages": [
+                10
+              ]
+            },
+            {
+              "label": "2. NP – Terasa",
+              "value": "14,50 m²",
+              "sourcePages": [
+                10
+              ]
+            },
+            {
+              "label": "2. NP – Pokoj 2",
+              "value": "22,15 m²",
+              "sourcePages": [
+                10
+              ]
+            },
+            {
+              "label": "2. NP – Pokoj 3",
+              "value": "17,00 m²",
+              "sourcePages": [
+                10
+              ]
+            },
+            {
+              "label": "2. NP – Koupelna s WC",
+              "value": "5,00 m²",
+              "sourcePages": [
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Porovnávací ocenění",
+          "facts": [
+            {
+              "label": "Jednotková cena",
+              "value": "32 332 Kč/m² započitatelné plochy",
+              "sourcePages": [
+                64
+              ]
+            },
+            {
+              "label": "Porovnávací hodnota celku",
+              "value": "6 744 455 Kč včetně souvisejících pozemků",
+              "sourcePages": [
+                64
+              ]
+            },
+            {
+              "label": "Rozsah upravených porovnávacích cen",
+              "value": "31 920–32 722 Kč/m²; výsledná jednotková cena stanovena průměrem",
+              "sourcePages": [
+                64
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Rozpory v posudku",
+          "facts": [
+            {
+              "label": "Modernizace podlaží",
+              "value": "Popis na str. 9 uvádí původní vybavení 1. NP a rekonstruovaný byt 2. NP. Porovnávací tabulka na str. 64 naopak uvádí modernizaci 1. NP a zastaralé 2. NP; tento rozpor není sjednocován.",
+              "sourcePages": [
+                9,
+                64
+              ]
+            },
+            {
+              "label": "Modernizace – datování",
+              "value": "Porovnávací tabulka doplňuje částečnou rekonstrukci v roce 1980, popis uvádí pouze průběžné modernizace.",
+              "sourcePages": [
+                9,
+                64
+              ]
+            },
+            {
+              "label": "Územní plán zahrady",
+              "value": "Popis domu používá označení smíšené obytné, zatímco popis parcely 2968/1 na str. 38 a tabulka na str. 39 uvádějí plochy bydlení.",
+              "sourcePages": [
+                8,
+                38,
+                39
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Omezení a rozpory",
+          "facts": [],
+          "paragraphs": [
+            {
+              "text": "Popis, technický stav a vybavení jsou údaje znaleckého posudku z roku 2025, nikoli ověření dnešního stavu.",
+              "sourcePages": [
+                1,
+                4
+              ]
+            }
+          ]
+        }
+      ],
+      "sourcePages": [
+        1,
+        4,
+        8,
+        9,
+        10,
+        38,
+        39,
+        64
+      ],
+      "factCount": 70
+    },
+    {
+      "id": "strmilov-393",
+      "summary": "Samostatný rodinný dům s obytným podkrovím, zahradou, posezením s krbem, bazénem a studnou v ulici Tyršova ve Strmilově.",
+      "reportDate": "2025-10-17",
+      "inspectionDate": "2025-09-18",
+      "sections": [
+        {
+          "title": "Časový a zdrojový rámec",
+          "facts": [
+            {
+              "label": "Ocenění a vyhotovení posudku",
+              "value": "17. 10. 2025",
+              "sourcePages": [
+                1
+              ]
+            },
+            {
+              "label": "Místní šetření s fotodokumentací",
+              "value": "18. 9. 2025",
+              "sourcePages": [
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Poloha a přístup",
+          "facts": [
+            {
+              "label": "Lokalita",
+              "value": "Tyršova, intravilán města Strmilov",
+              "sourcePages": [
+                8
+              ]
+            },
+            {
+              "label": "Příjezd",
+              "value": "Zpevněná komunikace ve vlastnictví města",
+              "sourcePages": [
+                8
+              ]
+            },
+            {
+              "label": "Terén",
+              "value": "Rovinatý",
+              "sourcePages": [
+                8
+              ]
+            },
+            {
+              "label": "Okolí",
+              "value": "Převážně rodinné domy",
+              "sourcePages": [
+                8
+              ]
+            },
+            {
+              "label": "Parkování",
+              "value": "Na vlastních pozemcích",
+              "sourcePages": [
+                8
+              ]
+            },
+            {
+              "label": "Vybavenost města",
+              "value": "MŠ, ZŠ, obecní úřad, pošta, obchod s potravinami",
+              "sourcePages": [
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Stavební uspořádání a stav",
+          "facts": [
+            {
+              "label": "Podlaží",
+              "value": "Částečně podsklepený dům, 1 nadzemní podlaží a obytné podkroví",
+              "sourcePages": [
+                10
+              ]
+            },
+            {
+              "label": "Střešní uspořádání",
+              "value": "Valbová střecha s pultovým vikýřem do ulice",
+              "sourcePages": [
+                10
+              ]
+            },
+            {
+              "label": "Rok výstavby",
+              "value": "Přibližně 1960",
+              "sourcePages": [
+                11
+              ]
+            },
+            {
+              "label": "Rekonstrukce",
+              "value": "Rok 2010",
+              "sourcePages": [
+                11
+              ]
+            },
+            {
+              "label": "Technický stav",
+              "value": "Dobrý stavebně technický stav, standardní vybavení",
+              "sourcePages": [
+                11
+              ]
+            },
+            {
+              "label": "Územní plán – popis stavby",
+              "value": "Plochy pro bydlení",
+              "sourcePages": [
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Konstrukce a vybavení",
+          "facts": [
+            {
+              "label": "Základy a zdivo",
+              "value": "Betonové základy s izolací, cihelné zdivo, rovné stropy",
+              "sourcePages": [
+                11
+              ]
+            },
+            {
+              "label": "Střecha",
+              "value": "Dřevěný krov, valbová střecha, plechová krytina, bleskosvod",
+              "sourcePages": [
+                11
+              ]
+            },
+            {
+              "label": "Klempířské prvky",
+              "value": "Pozinkovaný plech",
+              "sourcePages": [
+                11
+              ]
+            },
+            {
+              "label": "Fasáda",
+              "value": "Zateplení 10 cm EPS, kamenný obklad soklu",
+              "sourcePages": [
+                11
+              ]
+            },
+            {
+              "label": "Okna",
+              "value": "Plastová s izolačními dvojskly",
+              "sourcePages": [
+                11
+              ]
+            },
+            {
+              "label": "Schodiště a dveře",
+              "value": "Dřevěné schodiště; obložkové zárubně a běžná dřevěná křídla",
+              "sourcePages": [
+                11
+              ]
+            },
+            {
+              "label": "Podlahy",
+              "value": "Vinyl, koberce, keramická dlažba",
+              "sourcePages": [
+                11
+              ]
+            },
+            {
+              "label": "Povrchy",
+              "value": "Hladké vápenné omítky; keramika v koupelně a na WC, dřevěné palubky v chodbě",
+              "sourcePages": [
+                11
+              ]
+            },
+            {
+              "label": "Kuchyně",
+              "value": "Standardní linka s vestavěnými spotřebiči",
+              "sourcePages": [
+                11
+              ]
+            },
+            {
+              "label": "Sanitární vybavení",
+              "value": "Rohová vana, umyvadla, WC s nádržkou",
+              "sourcePages": [
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sítě a vytápění",
+          "facts": [
+            {
+              "label": "Elektřina",
+              "value": "230/400 V, jističe",
+              "sourcePages": [
+                11
+              ]
+            },
+            {
+              "label": "Voda a odpady",
+              "value": "Vodovod a kanalizace",
+              "sourcePages": [
+                11
+              ]
+            },
+            {
+              "label": "Plyn",
+              "value": "Přiveden, v objektu nevyužíván",
+              "sourcePages": [
+                11
+              ]
+            },
+            {
+              "label": "Vytápění",
+              "value": "Centrální kotel na tuhá paliva",
+              "sourcePages": [
+                11
+              ]
+            },
+            {
+              "label": "Teplá voda",
+              "value": "Elektrický bojler",
+              "sourcePages": [
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Příslušenství a související parcely",
+          "facts": [
+            {
+              "label": "Zahrada a příslušenství",
+              "value": "Zastřešené posezení s krbem, bazén, boční přístřešek k uskladnění dřeva, kopaná studna",
+              "sourcePages": [
+                10,
+                11
+              ]
+            },
+            {
+              "label": "Dům – st. 411",
+              "value": "109 m² zastavěné plochy a nádvoří",
+              "sourcePages": [
+                8
+              ]
+            },
+            {
+              "label": "Zahrada – 2969/4",
+              "value": "501 m²",
+              "sourcePages": [
+                8
+              ]
+            },
+            {
+              "label": "Pozemky funkčního celku",
+              "value": "610 m²",
+              "sourcePages": [
+                65
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Výměry pro ocenění",
+          "facts": [
+            {
+              "label": "Podlahová plocha",
+              "value": "159,73 m²",
+              "sourcePages": [
+                12
+              ]
+            },
+            {
+              "label": "Započitatelná plocha",
+              "value": "149,90 m²; sklep uvažován jako příslušenství",
+              "sourcePages": [
+                12
+              ]
+            },
+            {
+              "label": "Zastavěná plocha 1. NP",
+              "value": "136,35 m² dle výpočtu výměr",
+              "sourcePages": [
+                11
+              ]
+            },
+            {
+              "label": "Zastavěná plocha 1. PP",
+              "value": "15,00 m²",
+              "sourcePages": [
+                11
+              ]
+            },
+            {
+              "label": "Obestavěný prostor",
+              "value": "612,78 m³ včetně zastřešení",
+              "sourcePages": [
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Místnosti a plochy",
+          "facts": [
+            {
+              "label": "1. PP – Sklep",
+              "value": "9,83 m²",
+              "sourcePages": [
+                12
+              ]
+            },
+            {
+              "label": "1. NP – Chodba",
+              "value": "15,89 m²",
+              "sourcePages": [
+                12
+              ]
+            },
+            {
+              "label": "1. NP – Kuchyně",
+              "value": "20,20 m²",
+              "sourcePages": [
+                12
+              ]
+            },
+            {
+              "label": "1. NP – Komora",
+              "value": "4,90 m²",
+              "sourcePages": [
+                12
+              ]
+            },
+            {
+              "label": "1. NP – Obývací pokoj",
+              "value": "20,20 m²",
+              "sourcePages": [
+                12
+              ]
+            },
+            {
+              "label": "1. NP – Koupelna",
+              "value": "6,20 m²",
+              "sourcePages": [
+                12
+              ]
+            },
+            {
+              "label": "1. NP – WC",
+              "value": "1,90 m²",
+              "sourcePages": [
+                12
+              ]
+            },
+            {
+              "label": "1. NP – Pracovna",
+              "value": "16,21 m²",
+              "sourcePages": [
+                12
+              ]
+            },
+            {
+              "label": "1. NP – Ložnice",
+              "value": "19,40 m²",
+              "sourcePages": [
+                12
+              ]
+            },
+            {
+              "label": "1. NP – Zádveří",
+              "value": "4,90 m²",
+              "sourcePages": [
+                12
+              ]
+            },
+            {
+              "label": "Podkroví – Chodba",
+              "value": "6,50 m²; výměra nad výškou 1,3 m",
+              "sourcePages": [
+                12
+              ]
+            },
+            {
+              "label": "Podkroví – Pokoj 1",
+              "value": "16,70 m²; výměra nad výškou 1,3 m",
+              "sourcePages": [
+                12
+              ]
+            },
+            {
+              "label": "Podkroví – Pokoj 2",
+              "value": "12,30 m²; výměra nad výškou 1,3 m",
+              "sourcePages": [
+                12
+              ]
+            },
+            {
+              "label": "Podkroví – Pokoj 3",
+              "value": "4,60 m²; výměra nad výškou 1,3 m",
+              "sourcePages": [
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Porovnávací ocenění",
+          "facts": [
+            {
+              "label": "Jednotková cena",
+              "value": "31 654 Kč/m² započitatelné plochy",
+              "sourcePages": [
+                65
+              ]
+            },
+            {
+              "label": "Porovnávací hodnota celku",
+              "value": "4 744 935 Kč včetně souvisejících pozemků",
+              "sourcePages": [
+                65
+              ]
+            },
+            {
+              "label": "Rozsah upravených porovnávacích cen",
+              "value": "30 466–33 683 Kč/m²; výsledná jednotková cena stanovena průměrem",
+              "sourcePages": [
+                65
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Rozpory a odlišné výměry",
+          "facts": [
+            {
+              "label": "Číslo popisné",
+              "value": "Popis a fotodokumentace identifikují dům č. p. 393. Tabulka parcel na str. 39 u st. 411 opakuje č. p. 384.",
+              "sourcePages": [
+                10,
+                11,
+                39,
+                122
+              ]
+            },
+            {
+              "label": "Výměra parcely a výpočet stavby",
+              "value": "Výměra stavební parcely st. 411 je 109 m², výpočet zastavěné plochy 1. NP uvádí 136,35 m². Tyto dvě zdrojové hodnoty nejsou sjednocovány.",
+              "sourcePages": [
+                8,
+                11
+              ]
+            },
+            {
+              "label": "Územní plán zahrady",
+              "value": "Popis domu uvádí plochy pro bydlení; popis parcely 2969/4 na str. 38 a tabulka na str. 39 ji řadí do smíšeného bydlení.",
+              "sourcePages": [
+                10,
+                38,
+                39
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Omezení a rozpory",
+          "facts": [],
+          "paragraphs": [
+            {
+              "text": "Popis, technický stav a vybavení jsou údaje znaleckého posudku z roku 2025, nikoli ověření dnešního stavu.",
+              "sourcePages": [
+                1,
+                4
+              ]
+            }
+          ]
+        }
+      ],
+      "sourcePages": [
+        1,
+        4,
+        8,
+        10,
+        11,
+        12,
+        38,
+        39,
+        65,
+        122
+      ],
+      "factCount": 58
+    },
+    {
+      "id": "velky-jenikov-11",
+      "summary": "Podsklepený rodinný dům v zemědělském areálu; v 1. NP administrativa a v části podkroví ubytování zaměstnanců.",
+      "reportDate": "2025-10-17",
+      "inspectionDate": "2025-09-18",
+      "sections": [
+        {
+          "title": "Časový a zdrojový rámec",
+          "facts": [
+            {
+              "label": "Ocenění a vyhotovení posudku",
+              "value": "17. 10. 2025",
+              "sourcePages": [
+                1
+              ]
+            },
+            {
+              "label": "Místní šetření s fotodokumentací",
+              "value": "18. 9. 2025",
+              "sourcePages": [
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Poloha a přístup",
+          "facts": [
+            {
+              "label": "Lokalita",
+              "value": "Velký Jeníkov, intravilán části obce Studená",
+              "sourcePages": [
+                13
+              ]
+            },
+            {
+              "label": "Příjezd",
+              "value": "Zpevněné komunikace ve vlastnictví kraje a obce",
+              "sourcePages": [
+                13
+              ]
+            },
+            {
+              "label": "Terén",
+              "value": "Rovinatý až mírně sklonitý k severu",
+              "sourcePages": [
+                13
+              ]
+            },
+            {
+              "label": "Okolí",
+              "value": "Rodinné domy a zemědělské usedlosti",
+              "sourcePages": [
+                13
+              ]
+            },
+            {
+              "label": "Parkování",
+              "value": "Na vlastních pozemcích",
+              "sourcePages": [
+                13
+              ]
+            },
+            {
+              "label": "Vybavenost obce",
+              "value": "MŠ, ZŠ, obecní úřad, pošta, obchod s potravinami",
+              "sourcePages": [
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Stavební uspořádání a stav",
+          "facts": [
+            {
+              "label": "Podlaží",
+              "value": "Podsklepený dům s 1 nadzemním podlažím a částečně obytným podkrovím; zbývající část podkroví je půda",
+              "sourcePages": [
+                13
+              ]
+            },
+            {
+              "label": "Využití dle posudku",
+              "value": "Není trvale obýván; 1. NP administrativa, podkroví ubytování zaměstnanců",
+              "sourcePages": [
+                13
+              ]
+            },
+            {
+              "label": "Rok výstavby – popis",
+              "value": "Přibližně 1950, průběžné modernizace podkroví",
+              "sourcePages": [
+                14
+              ]
+            },
+            {
+              "label": "Technický stav",
+              "value": "Zhoršený stav se zanedbanou údržbou; vybavení 1. NP původní, byt v podkroví po rekonstrukci",
+              "sourcePages": [
+                14
+              ]
+            },
+            {
+              "label": "Územní plán",
+              "value": "Plochy venkovského bydlení",
+              "sourcePages": [
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Konstrukce a vybavení",
+          "facts": [
+            {
+              "label": "Základy a zdivo",
+              "value": "Betonové základy, smíšené zdivo, dřevěné trámové stropy",
+              "sourcePages": [
+                13
+              ]
+            },
+            {
+              "label": "Střecha",
+              "value": "Dřevěný krov, polovalbová střecha, živičná krytina, bleskosvod",
+              "sourcePages": [
+                13
+              ]
+            },
+            {
+              "label": "Klempířské prvky",
+              "value": "Pozinkovaný plech",
+              "sourcePages": [
+                13
+              ]
+            },
+            {
+              "label": "Fasáda",
+              "value": "Břízolit, bez vnějších obkladů",
+              "sourcePages": [
+                13
+              ]
+            },
+            {
+              "label": "Okna",
+              "value": "Dřevěná s dvojskly, střešní okna dřevěná",
+              "sourcePages": [
+                13
+              ]
+            },
+            {
+              "label": "Schodiště a dveře",
+              "value": "Betonové schodiště; ocelové zárubně v 1. NP a obložkové v podkroví, běžná hladká křídla",
+              "sourcePages": [
+                13
+              ]
+            },
+            {
+              "label": "Podlahy",
+              "value": "PVC, vinyl, dřevěné vlysy, keramická dlažba",
+              "sourcePages": [
+                13
+              ]
+            },
+            {
+              "label": "Povrchy",
+              "value": "Hladké vápenné omítky a keramické obklady v koupelnách a kuchyních",
+              "sourcePages": [
+                13
+              ]
+            },
+            {
+              "label": "Kuchyně",
+              "value": "1. NP původní linka; podkroví starší linka a elektrické spotřebiče",
+              "sourcePages": [
+                14
+              ]
+            },
+            {
+              "label": "Sanitární vybavení",
+              "value": "1. NP: sprchový kout, umyvadlo, WC s nádržkou. Podkroví: rohová vana, umyvadlo, WC s nádržkou.",
+              "sourcePages": [
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sítě a vytápění",
+          "facts": [
+            {
+              "label": "Elektřina",
+              "value": "230/400 V, jističe",
+              "sourcePages": [
+                14
+              ]
+            },
+            {
+              "label": "Voda a odpady",
+              "value": "Vodovod a kanalizace",
+              "sourcePages": [
+                14
+              ]
+            },
+            {
+              "label": "Vytápění",
+              "value": "Centrální kotel na tuhá paliva",
+              "sourcePages": [
+                13
+              ]
+            },
+            {
+              "label": "Teplá voda",
+              "value": "Elektrický bojler",
+              "sourcePages": [
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Areál a související parcely",
+          "facts": [
+            {
+              "label": "Součást zemědělského areálu",
+              "value": "Garáž, chlév pro prasata, parkovací přístřešek, kravín, krmné žlaby, teletník, prostor pro zpracování mléka a kopaná studna",
+              "sourcePages": [
+                13,
+                14
+              ]
+            },
+            {
+              "label": "Parkovací přístřešek",
+              "value": "Dřevěný, přibližně z roku 2011, pro parkování techniky vedle domu",
+              "sourcePages": [
+                14
+              ]
+            },
+            {
+              "label": "Stavební parcela – st. 1",
+              "value": "1 978 m²; zahrnuje dům i hospodářské stavby",
+              "sourcePages": [
+                12,
+                13
+              ]
+            },
+            {
+              "label": "Zahrada – 27/1",
+              "value": "417 m²",
+              "sourcePages": [
+                12
+              ]
+            },
+            {
+              "label": "Zahrada – 27/2",
+              "value": "400 m²",
+              "sourcePages": [
+                12
+              ]
+            },
+            {
+              "label": "Zahrada – 33/5",
+              "value": "384 m²",
+              "sourcePages": [
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Výměry a způsob odvození",
+          "facts": [
+            {
+              "label": "Zastavěná plocha 1. PP",
+              "value": "99 m²",
+              "sourcePages": [
+                15
+              ]
+            },
+            {
+              "label": "Zastavěná plocha 1. NP",
+              "value": "203 m²",
+              "sourcePages": [
+                15
+              ]
+            },
+            {
+              "label": "Půdorysná plocha podkroví",
+              "value": "188 m²",
+              "sourcePages": [
+                15
+              ]
+            },
+            {
+              "label": "Odvozená podlahová plocha 1. PP",
+              "value": "79,20 m²; koeficient 0,8 ze zastavěné plochy",
+              "sourcePages": [
+                15
+              ]
+            },
+            {
+              "label": "Odvozená podlahová plocha 1. NP",
+              "value": "162,40 m²; koeficient 0,8 ze zastavěné plochy",
+              "sourcePages": [
+                15
+              ]
+            },
+            {
+              "label": "Odvozená podlahová plocha podkroví",
+              "value": "131,60 m²; koeficient 0,7 kvůli šikminám",
+              "sourcePages": [
+                15
+              ]
+            },
+            {
+              "label": "Započitatelná plocha",
+              "value": "228,20 m²; sklep neuvažován a podkroví uvažováno polovinou výměry, protože není celé obytné",
+              "sourcePages": [
+                15
+              ]
+            },
+            {
+              "label": "Omezení výměr",
+              "value": "Odborný odhad z měření v katastrální mapě, nejde o přímé zaměření podlahových ploch",
+              "sourcePages": [
+                15
+              ]
+            },
+            {
+              "label": "Obestavěný prostor",
+              "value": "1 244,85 m³ včetně zastřešení",
+              "sourcePages": [
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Porovnávací ocenění",
+          "facts": [
+            {
+              "label": "Jednotková cena",
+              "value": "11 576 Kč/m² započitatelné plochy",
+              "sourcePages": [
+                66
+              ]
+            },
+            {
+              "label": "Porovnávací hodnota",
+              "value": "2 641 643 Kč",
+              "sourcePages": [
+                66
+              ]
+            },
+            {
+              "label": "Rozsah upravených porovnávacích cen",
+              "value": "10 502–12 108 Kč/m²; výsledná jednotková cena stanovena průměrem",
+              "sourcePages": [
+                66
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Rozpory v posudku",
+          "facts": [
+            {
+              "label": "Rok výstavby",
+              "value": "Podrobný popis na str. 14 uvádí přibližně 1950, porovnávací tabulka na str. 66 přibližně 1930.",
+              "sourcePages": [
+                14,
+                66
+              ]
+            },
+            {
+              "label": "Další údaje porovnávací tabulky",
+              "value": "Tabulka na str. 66 doplňuje střechu z roku 2005 a přístavbu části podkroví stáří přibližně 13 let; podrobný popis uvádí pouze průběžné modernizace podkroví.",
+              "sourcePages": [
+                14,
+                66
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Omezení a rozpory",
+          "facts": [],
+          "paragraphs": [
+            {
+              "text": "Popis, technický stav a vybavení jsou údaje znaleckého posudku z roku 2025, nikoli ověření dnešního stavu.",
+              "sourcePages": [
+                1,
+                4
+              ]
+            }
+          ]
+        }
+      ],
+      "sourcePages": [
+        1,
+        4,
+        12,
+        13,
+        14,
+        15,
+        66
+      ],
+      "factCount": 47
+    },
+    {
+      "id": "velky-jenikov-statek",
+      "summary": "Hospodářský areál navazující na rodinný dům č. p. 11: garáž, chlév, kravín, teletník, přístřešky, krmné žlaby, zpracování mléka a studna.",
+      "reportDate": "2025-10-17",
+      "inspectionDate": "2025-09-18",
+      "sections": [
+        {
+          "title": "Časový a zdrojový rámec",
+          "facts": [
+            {
+              "label": "Ocenění a vyhotovení posudku",
+              "value": "17. 10. 2025",
+              "sourcePages": [
+                1
+              ]
+            },
+            {
+              "label": "Místní šetření s fotodokumentací",
+              "value": "18. 9. 2025",
+              "sourcePages": [
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Poloha a přístup",
+          "facts": [
+            {
+              "label": "Lokalita",
+              "value": "Velký Jeníkov, intravilán části obce Studená",
+              "sourcePages": [
+                13
+              ]
+            },
+            {
+              "label": "Příjezd",
+              "value": "Zpevněné komunikace ve vlastnictví kraje a obce",
+              "sourcePages": [
+                13
+              ]
+            },
+            {
+              "label": "Terén",
+              "value": "Rovinatý až mírně sklonitý k severu",
+              "sourcePages": [
+                13
+              ]
+            },
+            {
+              "label": "Okolí",
+              "value": "Rodinné domy a zemědělské usedlosti",
+              "sourcePages": [
+                13
+              ]
+            },
+            {
+              "label": "Parkování",
+              "value": "Na vlastních pozemcích",
+              "sourcePages": [
+                13
+              ]
+            },
+            {
+              "label": "Vybavenost obce",
+              "value": "MŠ, ZŠ, obecní úřad, pošta, obchod s potravinami",
+              "sourcePages": [
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Uspořádání a stáří",
+          "facts": [
+            {
+              "label": "Umístění",
+              "value": "Součást zemědělského objektu u domu č. p. 11 na st. 1",
+              "sourcePages": [
+                13,
+                14
+              ]
+            },
+            {
+              "label": "Převažující využití",
+              "value": "Chov hospodářských zvířat, příprava krmení, zpracování mléka, parkování a skladování",
+              "sourcePages": [
+                13,
+                14
+              ]
+            },
+            {
+              "label": "Stáří – porovnávací tabulka",
+              "value": "Hospodářský objekt přibližně z roku 1930; garáž a přístřešky z let 2015 a 2017 dle tabulky",
+              "sourcePages": [
+                67
+              ]
+            },
+            {
+              "label": "Územní plán",
+              "value": "Plochy venkovského bydlení",
+              "sourcePages": [
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Garáž",
+          "facts": [
+            {
+              "label": "Poloha",
+              "value": "Za vstupem do areálu vlevo",
+              "sourcePages": [
+                14
+              ]
+            },
+            {
+              "label": "Konstrukce",
+              "value": "Zděné stěny tloušťky 30 cm, rovné stropy s izolací, sedlová střecha s plechovou krytinou",
+              "sourcePages": [
+                14
+              ]
+            },
+            {
+              "label": "Povrchy a otvory",
+              "value": "Hladké vápenné omítky, betonová podlaha, jednoduchá dřevěná okna a dřevěná vrata",
+              "sourcePages": [
+                14
+              ]
+            },
+            {
+              "label": "Vytápění a sítě",
+              "value": "Kamna na tuhá paliva; elektřina; odpad do vlastní jímky pod montážní jámou",
+              "sourcePages": [
+                14
+              ]
+            },
+            {
+              "label": "Vybavení",
+              "value": "Montážní jáma pro automobily a příslušenství pro správu automobilů a zemědělských strojů",
+              "sourcePages": [
+                14
+              ]
+            },
+            {
+              "label": "Zastavěná plocha",
+              "value": "82,35 m²",
+              "sourcePages": [
+                16
+              ]
+            },
+            {
+              "label": "Rozměry",
+              "value": "9,00 × 9,15 m; výška části 4,40 m",
+              "sourcePages": [
+                16
+              ]
+            },
+            {
+              "label": "Obestavěný prostor",
+              "value": "419,99 m³ včetně zastřešení",
+              "sourcePages": [
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Chlév a navazující přístřešek",
+          "facts": [
+            {
+              "label": "Chlév – konstrukce",
+              "value": "Navazuje na garáž; kamenné základy bez izolace, kamenné obvodové zdivo tloušťky 50 cm",
+              "sourcePages": [
+                14
+              ]
+            },
+            {
+              "label": "Chlév – střecha",
+              "value": "Sedlová, plechová krytina přibližně z roku 2015",
+              "sourcePages": [
+                14
+              ]
+            },
+            {
+              "label": "Chlév – povrchy a otvory",
+              "value": "Vápenné omítky, dřevěné trámové stropy bez podhledu, jednoduchá dřevěná okna, masivní dřevěné dveře, betonová podlaha",
+              "sourcePages": [
+                14
+              ]
+            },
+            {
+              "label": "Chlév – zastavěná plocha",
+              "value": "87,97 m²",
+              "sourcePages": [
+                16
+              ]
+            },
+            {
+              "label": "Chlév – rozměry",
+              "value": "14,86 × 5,92 m; výška části 3,60 m",
+              "sourcePages": [
+                16
+              ]
+            },
+            {
+              "label": "Chlév – obestavěný prostor",
+              "value": "413,47 m³",
+              "sourcePages": [
+                16
+              ]
+            },
+            {
+              "label": "Přístřešek – konstrukce",
+              "value": "Navazuje na chlév; kamenné obvodové stěny tloušťky 50 cm, sedlová střecha s plechovou krytinou přibližně z roku 2015",
+              "sourcePages": [
+                14
+              ]
+            },
+            {
+              "label": "Přístřešek – zastavěná plocha",
+              "value": "72,00 m²; rozměry 12,00 × 6,00 m",
+              "sourcePages": [
+                16
+              ]
+            },
+            {
+              "label": "Přístřešek – obestavěný prostor",
+              "value": "338,40 m³",
+              "sourcePages": [
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Kravín a krmné žlaby",
+          "facts": [
+            {
+              "label": "Kravín – konstrukce",
+              "value": "Kamenné základy s vodorovnou izolací, kamenné obvodové zdivo tloušťky 60 cm, nespalné stropy do I profilů",
+              "sourcePages": [
+                14
+              ]
+            },
+            {
+              "label": "Kravín – střecha",
+              "value": "Sedlový krov s vlnitou eternitovou krytinou",
+              "sourcePages": [
+                14
+              ]
+            },
+            {
+              "label": "Kravín – povrchy a otvory",
+              "value": "Vápenné omítky, jednoduchá ocelová okna, dveře z masivního dřeva, betonová podlaha",
+              "sourcePages": [
+                14
+              ]
+            },
+            {
+              "label": "Kravín – plocha a rozměry",
+              "value": "360,00 m²; 30,00 × 12,00 m; výška části 4,00 m",
+              "sourcePages": [
+                17
+              ]
+            },
+            {
+              "label": "Kravín – obestavěný prostor",
+              "value": "1 890,00 m³ včetně zastřešení",
+              "sourcePages": [
+                17
+              ]
+            },
+            {
+              "label": "Žlab za kravínem",
+              "value": "V době šetření nezastřešený, sloužil k ustájení telat",
+              "sourcePages": [
+                14
+              ]
+            },
+            {
+              "label": "Žlab ve dvoře",
+              "value": "Navazuje na kravín směrem do dvora; pultová střecha s plechovou krytinou, ocelová nádoba pro přípravu krmení",
+              "sourcePages": [
+                14
+              ]
+            },
+            {
+              "label": "Žlab ve dvoře – výpočet plochy",
+              "value": "298,89 m²; rozměry 24,60 × 12,15 m",
+              "sourcePages": [
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Teletník a zpracování mléka",
+          "facts": [
+            {
+              "label": "Teletník – konstrukce",
+              "value": "Navazuje na kravín; kamenné základy a kamenné zdivo tloušťky 50 cm; sedlová střecha s vlnitým eternitem",
+              "sourcePages": [
+                14
+              ]
+            },
+            {
+              "label": "Teletník – povrchy a sítě",
+              "value": "Dřevěné dveře, betonová podlaha, napojení na elektřinu",
+              "sourcePages": [
+                14
+              ]
+            },
+            {
+              "label": "Teletník – plocha a rozměry",
+              "value": "259,83 m²; 27,35 × 9,50 m; výška části 4,00 m",
+              "sourcePages": [
+                17
+              ]
+            },
+            {
+              "label": "Teletník – obestavěný prostor",
+              "value": "1 364,09 m³ včetně zastřešení",
+              "sourcePages": [
+                18
+              ]
+            },
+            {
+              "label": "Zpracování mléka – konstrukce",
+              "value": "Navazuje na teletník; pultová střecha s plechovou krytinou, vnitřní keramické obklady",
+              "sourcePages": [
+                14
+              ]
+            },
+            {
+              "label": "Zpracování mléka – účel",
+              "value": "Zpracování mléka k následnému transportu",
+              "sourcePages": [
+                14
+              ]
+            },
+            {
+              "label": "Zpracování mléka – plocha a rozměry",
+              "value": "69,00 m²; 11,50 × 6,00 m; výška části 4,00 m",
+              "sourcePages": [
+                18
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Studna a další příslušenství",
+          "facts": [
+            {
+              "label": "Studna",
+              "value": "Kopaná, průměr 1,5 m, hloubka 5 m, napojena na vlastní vodárnu",
+              "sourcePages": [
+                15
+              ]
+            },
+            {
+              "label": "Vydatnost dle posudku",
+              "value": "20 m³/den; údaj posudku není aktuální měření vydatnosti",
+              "sourcePages": [
+                15
+              ]
+            },
+            {
+              "label": "Parkovací přístřešek",
+              "value": "Dřevěný, přibližně z roku 2011, vedle rodinného domu",
+              "sourcePages": [
+                14
+              ]
+            },
+            {
+              "label": "Další příslušenství v porovnávací tabulce",
+              "value": "Plechový sklad na dvoře, zděný sklad, vodárna, přístřešky a studna",
+              "sourcePages": [
+                67
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Porovnávací ocenění",
+          "facts": [
+            {
+              "label": "Zastavěná plocha použitá v porovnání",
+              "value": "1 231,24 m² dle souhrnné porovnávací tabulky",
+              "sourcePages": [
+                67
+              ]
+            },
+            {
+              "label": "Jednotková cena",
+              "value": "3 753 Kč/m² zastavěné plochy",
+              "sourcePages": [
+                67
+              ]
+            },
+            {
+              "label": "Porovnávací hodnota",
+              "value": "4 620 844 Kč",
+              "sourcePages": [
+                67
+              ]
+            },
+            {
+              "label": "Rozsah upravených porovnávacích cen",
+              "value": "3 114–5 315 Kč/m²; výsledná jednotková cena stanovena průměrem",
+              "sourcePages": [
+                67
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Souvislosti ocenění",
+          "facts": [
+            {
+              "label": "Společná stavební parcela",
+              "value": "St. 1 má celkovou výměru 1 978 m² a zahrnuje rodinný dům i hospodářské stavby; nejde o parcelu patřící dvakrát do soupisu.",
+              "sourcePages": [
+                12,
+                13
+              ]
+            },
+            {
+              "label": "Rozdělení v porovnávacích tabulkách",
+              "value": "Tabulka domu č. p. 11 uvádí velikost pozemku 204 m², tabulka zemědělského objektu 1 774 m². Tyto hodnoty jsou součástí metody ocenění, nikoli dvě samostatné katastrální parcely.",
+              "sourcePages": [
+                66,
+                67
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Omezení a rozpory",
+          "facts": [],
+          "paragraphs": [
+            {
+              "text": "Popis, technický stav a vybavení jsou údaje znaleckého posudku z roku 2025, nikoli ověření dnešního stavu.",
+              "sourcePages": [
+                1,
+                4
+              ]
+            }
+          ]
+        }
+      ],
+      "sourcePages": [
+        1,
+        4,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        66,
+        67
+      ],
+      "factCount": 54
+    },
+    {
+      "id": "velky-jenikov-9",
+      "summary": "Starší samostatný rodinný dům v původním špatném stavu s hospodářskou přístavbou a stodolou. Při šetření nebyl znalci umožněn vstup.",
+      "reportDate": "2025-10-17",
+      "inspectionDate": "2025-09-18",
+      "sections": [
+        {
+          "title": "Časový a zdrojový rámec",
+          "facts": [
+            {
+              "label": "Ocenění a vyhotovení posudku",
+              "value": "17. 10. 2025",
+              "sourcePages": [
+                1
+              ]
+            },
+            {
+              "label": "Místní šetření s fotodokumentací",
+              "value": "18. 9. 2025",
+              "sourcePages": [
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Poloha a přístup",
+          "facts": [
+            {
+              "label": "Lokalita",
+              "value": "Velký Jeníkov, intravilán části obce Studená",
+              "sourcePages": [
+                13
+              ]
+            },
+            {
+              "label": "Příjezd",
+              "value": "Zpevněné komunikace ve vlastnictví kraje a obce",
+              "sourcePages": [
+                13
+              ]
+            },
+            {
+              "label": "Terén",
+              "value": "Rovinatý až mírně sklonitý k severu",
+              "sourcePages": [
+                13
+              ]
+            },
+            {
+              "label": "Okolí",
+              "value": "Rodinné domy a zemědělské usedlosti",
+              "sourcePages": [
+                13
+              ]
+            },
+            {
+              "label": "Parkování",
+              "value": "Na vlastních pozemcích",
+              "sourcePages": [
+                13
+              ]
+            },
+            {
+              "label": "Vybavenost obce",
+              "value": "MŠ, ZŠ, obecní úřad, pošta, obchod s potravinami",
+              "sourcePages": [
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Stavební uspořádání a stav",
+          "facts": [
+            {
+              "label": "Podlaží",
+              "value": "Nepodsklepený, 1 nadzemní podlaží, bez obytného podkroví",
+              "sourcePages": [
+                18
+              ]
+            },
+            {
+              "label": "Půdorys",
+              "value": "Obdélníkový; na obytnou část navazuje hospodářská část",
+              "sourcePages": [
+                18
+              ]
+            },
+            {
+              "label": "Rok výstavby",
+              "value": "Přibližně 1910, původní stav",
+              "sourcePages": [
+                19
+              ]
+            },
+            {
+              "label": "Technický stav",
+              "value": "Špatný se zanedbanou údržbou; vybavení morálně i technicky zastaralé",
+              "sourcePages": [
+                19
+              ]
+            },
+            {
+              "label": "Vady uvedené v posudku",
+              "value": "Vzlínající vlhkost a trhliny ve zdivu",
+              "sourcePages": [
+                19
+              ]
+            },
+            {
+              "label": "Územní plán",
+              "value": "Plochy venkovského bydlení",
+              "sourcePages": [
+                18
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Konstrukce a vybavení",
+          "facts": [
+            {
+              "label": "Základy a zdivo",
+              "value": "Smíšené základy, cihelné zdivo, dřevěné trámové stropy",
+              "sourcePages": [
+                18
+              ]
+            },
+            {
+              "label": "Střecha",
+              "value": "Dřevěný krov, sedlová střecha, keramické tašky",
+              "sourcePages": [
+                18
+              ]
+            },
+            {
+              "label": "Klempířské prvky",
+              "value": "Pozinkovaný plech",
+              "sourcePages": [
+                18
+              ]
+            },
+            {
+              "label": "Fasáda a povrchy",
+              "value": "Vápenné fasádní omítky, hladké vápenné vnitřní omítky, keramické vnitřní obklady",
+              "sourcePages": [
+                18
+              ]
+            },
+            {
+              "label": "Okna a dveře",
+              "value": "Dřevěná dvojitá okna; obložkové zárubně a dřevěná křídla",
+              "sourcePages": [
+                18
+              ]
+            },
+            {
+              "label": "Podlahy",
+              "value": "Prkenné podlahy a koberce",
+              "sourcePages": [
+                18
+              ]
+            },
+            {
+              "label": "Kuchyně a sanitární vybavení",
+              "value": "Starší kuchyňská linka, umyvadlo",
+              "sourcePages": [
+                18
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sítě a vytápění",
+          "facts": [
+            {
+              "label": "Elektřina",
+              "value": "230/400 V, jističe",
+              "sourcePages": [
+                18
+              ]
+            },
+            {
+              "label": "Voda a odpady",
+              "value": "Vodovod a kanalizace dle popisu posudku",
+              "sourcePages": [
+                18
+              ]
+            },
+            {
+              "label": "Vytápění",
+              "value": "Lokální kamna na tuhá paliva",
+              "sourcePages": [
+                18
+              ]
+            },
+            {
+              "label": "Teplá voda",
+              "value": "Průtokový ohřívač",
+              "sourcePages": [
+                18
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Příslušenství a pozemky",
+          "facts": [
+            {
+              "label": "Příslušenství",
+              "value": "Hospodářská přístavba a stodola; obě ve špatném stavebně technickém stavu",
+              "sourcePages": [
+                18,
+                19
+              ]
+            },
+            {
+              "label": "Dům – st. 3",
+              "value": "916 m² zastavěné plochy a nádvoří",
+              "sourcePages": [
+                12
+              ]
+            },
+            {
+              "label": "Zahrada – 3",
+              "value": "587 m²",
+              "sourcePages": [
+                12
+              ]
+            },
+            {
+              "label": "Zahrada – 2/3",
+              "value": "27 m²",
+              "sourcePages": [
+                12
+              ]
+            },
+            {
+              "label": "Pozemky funkčního celku",
+              "value": "1 530 m² dle porovnávací tabulky",
+              "sourcePages": [
+                68
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Výměry a omezení přístupu",
+          "facts": [
+            {
+              "label": "Zastavěná plocha",
+              "value": "153 m²",
+              "sourcePages": [
+                19
+              ]
+            },
+            {
+              "label": "Započitatelná plocha",
+              "value": "115 m² po zaokrouhlení",
+              "sourcePages": [
+                19
+              ]
+            },
+            {
+              "label": "Výpočet započitatelné plochy",
+              "value": "153 m² × 0,75 = 114,75 m², zaokrouhleno na 115 m²",
+              "sourcePages": [
+                19
+              ]
+            },
+            {
+              "label": "Obestavěný prostor",
+              "value": "726,75 m³ včetně zastřešení",
+              "sourcePages": [
+                19
+              ]
+            },
+            {
+              "label": "Omezení místního šetření",
+              "value": "Znalci nebyl umožněn přístup do nemovitosti; výměry nebylo možné zaměřit. Započitatelná plocha je odvozena odborným odhadem ze zastavěné plochy.",
+              "sourcePages": [
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Porovnávací ocenění",
+          "facts": [
+            {
+              "label": "Jednotková cena",
+              "value": "14 269 Kč/m² započitatelné plochy",
+              "sourcePages": [
+                68
+              ]
+            },
+            {
+              "label": "Porovnávací hodnota celku",
+              "value": "1 640 935 Kč včetně souvisejících pozemků",
+              "sourcePages": [
+                68
+              ]
+            },
+            {
+              "label": "Rozsah upravených porovnávacích cen",
+              "value": "11 679–17 613 Kč/m²; výsledná jednotková cena stanovena průměrem",
+              "sourcePages": [
+                68
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Omezení a rozpory",
+          "facts": [],
+          "paragraphs": [
+            {
+              "text": "Popis, technický stav a vybavení jsou údaje znaleckého posudku z roku 2025, nikoli ověření dnešního stavu.",
+              "sourcePages": [
+                1,
+                4
+              ]
+            },
+            {
+              "text": "U tohoto domu nebyla při šetření provedena přístupná vnitřní prohlídka; uváděný popis a plochy mají omezení popsané na str. 19.",
+              "sourcePages": [
+                19
+              ]
+            }
+          ]
+        }
+      ],
+      "sourcePages": [
+        1,
+        4,
+        12,
+        13,
+        18,
+        19,
+        68
+      ],
+      "factCount": 38
+    },
+    {
+      "id": "velky-jenikov-hala",
+      "summary": "Samostatná jednopodlažní hala pro skladování zemědělské techniky z roku 2017, ocelová konstrukce s dřevěným obkladem.",
+      "reportDate": "2025-10-17",
+      "inspectionDate": "2025-09-18",
+      "sections": [
+        {
+          "title": "Časový a zdrojový rámec",
+          "facts": [
+            {
+              "label": "Ocenění a vyhotovení posudku",
+              "value": "17. 10. 2025",
+              "sourcePages": [
+                1
+              ]
+            },
+            {
+              "label": "Místní šetření s fotodokumentací",
+              "value": "18. 9. 2025",
+              "sourcePages": [
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Poloha a přístup",
+          "facts": [
+            {
+              "label": "Lokalita",
+              "value": "Velký Jeníkov, intravilán části obce Studená",
+              "sourcePages": [
+                13
+              ]
+            },
+            {
+              "label": "Příjezd",
+              "value": "Zpevněné komunikace ve vlastnictví kraje a obce",
+              "sourcePages": [
+                13
+              ]
+            },
+            {
+              "label": "Terén",
+              "value": "Rovinatý až mírně sklonitý k severu",
+              "sourcePages": [
+                13
+              ]
+            },
+            {
+              "label": "Okolí",
+              "value": "Rodinné domy a zemědělské usedlosti",
+              "sourcePages": [
+                13
+              ]
+            },
+            {
+              "label": "Parkování",
+              "value": "Na vlastních pozemcích",
+              "sourcePages": [
+                13
+              ]
+            },
+            {
+              "label": "Vybavenost obce",
+              "value": "MŠ, ZŠ, obecní úřad, pošta, obchod s potravinami",
+              "sourcePages": [
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Uspořádání a stav",
+          "facts": [
+            {
+              "label": "Účel",
+              "value": "Skladování zemědělské techniky",
+              "sourcePages": [
+                19
+              ]
+            },
+            {
+              "label": "Podlaží a půdorys",
+              "value": "Samostatná nepodsklepená jednopodlažní hala, obdélníkový půdorys, sedlová střecha",
+              "sourcePages": [
+                19
+              ]
+            },
+            {
+              "label": "Rok výstavby",
+              "value": "2017, v původním stavu",
+              "sourcePages": [
+                20
+              ]
+            },
+            {
+              "label": "Technický stav",
+              "value": "Dobrý stavebně technický stav",
+              "sourcePages": [
+                20
+              ]
+            },
+            {
+              "label": "Územní plán",
+              "value": "Plochy venkovského bydlení",
+              "sourcePages": [
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Konstrukce a vybavení",
+          "facts": [
+            {
+              "label": "Základy",
+              "value": "Betonové s izolací",
+              "sourcePages": [
+                19
+              ]
+            },
+            {
+              "label": "Nosná konstrukce a opláštění",
+              "value": "Ocelová konstrukce se dřevěným obkladem",
+              "sourcePages": [
+                19,
+                20
+              ]
+            },
+            {
+              "label": "Střecha",
+              "value": "Ocelový krov, sedlová střecha, plechová krytina",
+              "sourcePages": [
+                20
+              ]
+            },
+            {
+              "label": "Klempířské prvky",
+              "value": "Pozinkovaný plech",
+              "sourcePages": [
+                20
+              ]
+            },
+            {
+              "label": "Podlaha",
+              "value": "Betonová mazanina",
+              "sourcePages": [
+                20
+              ]
+            },
+            {
+              "label": "Vrata",
+              "value": "Ocelová",
+              "sourcePages": [
+                20
+              ]
+            },
+            {
+              "label": "Okna, dveře, stropy a schodiště",
+              "value": "V tabulce uvedeno: chybí",
+              "sourcePages": [
+                19,
+                20
+              ]
+            },
+            {
+              "label": "Vnitřní povrchy",
+              "value": "Bez vnitřních omítek a obkladů",
+              "sourcePages": [
+                20
+              ]
+            },
+            {
+              "label": "Vytápění",
+              "value": "Chybí",
+              "sourcePages": [
+                20
+              ]
+            },
+            {
+              "label": "Přípojky",
+              "value": "Elektřina 230/400 V, jističe; jiné přípojky v popisu uvedeny nejsou",
+              "sourcePages": [
+                20
+              ]
+            },
+            {
+              "label": "Příslušenství",
+              "value": "V popisu uvedeno: chybí",
+              "sourcePages": [
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Rozměry a výměry",
+          "facts": [
+            {
+              "label": "Půdorys",
+              "value": "42,30 × 12,45 m",
+              "sourcePages": [
+                20
+              ]
+            },
+            {
+              "label": "Zastavěná plocha",
+              "value": "526,64 m²",
+              "sourcePages": [
+                20
+              ]
+            },
+            {
+              "label": "Výška základní části",
+              "value": "5,70 m",
+              "sourcePages": [
+                20
+              ]
+            },
+            {
+              "label": "Hřeben nad nadezdívkou",
+              "value": "1,00 m dle výpočtu zastřešení",
+              "sourcePages": [
+                20
+              ]
+            },
+            {
+              "label": "Obestavěný prostor základní části",
+              "value": "3 001,82 m³",
+              "sourcePages": [
+                20
+              ]
+            },
+            {
+              "label": "Obestavěný prostor celkem",
+              "value": "3 265,14 m³ včetně zastřešení",
+              "sourcePages": [
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Související parcely",
+          "facts": [
+            {
+              "label": "Hala – st. 36",
+              "value": "527 m² zastavěné plochy a nádvoří",
+              "sourcePages": [
+                13
+              ]
+            },
+            {
+              "label": "Zahrada – 1/1",
+              "value": "2 630 m²",
+              "sourcePages": [
+                13
+              ]
+            },
+            {
+              "label": "Zahrada – 1/2",
+              "value": "440 m²",
+              "sourcePages": [
+                13
+              ]
+            },
+            {
+              "label": "Pozemky funkčního celku",
+              "value": "3 597 m² dle porovnávací tabulky",
+              "sourcePages": [
+                69
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Porovnávací ocenění",
+          "facts": [
+            {
+              "label": "Jednotková cena",
+              "value": "8 436 Kč/m² zastavěné plochy",
+              "sourcePages": [
+                69
+              ]
+            },
+            {
+              "label": "Porovnávací hodnota celku",
+              "value": "4 442 693 Kč včetně souvisejících pozemků",
+              "sourcePages": [
+                69
+              ]
+            },
+            {
+              "label": "Rozsah upravených porovnávacích cen",
+              "value": "7 746–8 776 Kč/m²; výsledná jednotková cena stanovena průměrem",
+              "sourcePages": [
+                69
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Omezení a rozpory",
+          "facts": [],
+          "paragraphs": [
+            {
+              "text": "Popis, technický stav a vybavení jsou údaje znaleckého posudku z roku 2025, nikoli ověření dnešního stavu.",
+              "sourcePages": [
+                1,
+                4
+              ]
+            }
+          ]
+        }
+      ],
+      "sourcePages": [
+        1,
+        4,
+        13,
+        19,
+        20,
+        69
+      ],
+      "factCount": 37
+    }
+  ],
+  "sourcePages": [
+    1,
+    4,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    38,
+    39,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    122
+  ]
+}
