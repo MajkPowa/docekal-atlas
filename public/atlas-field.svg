@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" fill="none" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <radialGradient id="ember"><stop stop-color="#f18b51" stop-opacity=".32"/><stop offset=".2" stop-color="#ec7c3f" stop-opacity=".12"/><stop offset="1" stop-color="#ec7c3f" stop-opacity="0"/></radialGradient>
+    <linearGradient id="contour" x1="0" y1="0" x2="420" y2="1000" gradientUnits="userSpaceOnUse"><stop stop-color="#b2957c" stop-opacity=".17"/><stop offset=".42" stop-color="#8b9c9e" stop-opacity=".07"/><stop offset="1" stop-color="#ad9780" stop-opacity=".16"/></linearGradient>
+    <linearGradient id="orbit" x1="1120" y1="610" x2="1600" y2="1000" gradientUnits="userSpaceOnUse"><stop stop-color="#7a8e94" stop-opacity=".02"/><stop offset=".65" stop-color="#81959b" stop-opacity=".1"/><stop offset="1" stop-color="#b39b81" stop-opacity=".06"/></linearGradient>
+  </defs>
+  <!-- Decorative survey field. These curves are not geographic boundaries. -->
+  <g stroke="#7f939a" stroke-width=".6" stroke-opacity=".055">
+    <path d="M80 0V1000"/>
+    <path d="M240 0V1000"/>
+    <path d="M400 0V1000"/>
+    <path d="M560 0V1000"/>
+    <path d="M720 0V1000"/>
+    <path d="M880 0V1000"/>
+    <path d="M1040 0V1000"/>
+    <path d="M1200 0V1000"/>
+    <path d="M1360 0V1000"/>
+    <path d="M1520 0V1000"/>
+    <path d="M0 80H1600"/>
+    <path d="M0 240H1600"/>
+    <path d="M0 400H1600"/>
+    <path d="M0 560H1600"/>
+    <path d="M0 720H1600"/>
+    <path d="M0 880H1600"/>
+  </g>
+  <g stroke="url(#contour)" stroke-width=".7">
+    <path d="M-205.0 -60C-75.0 105 60.0 236 15.0 384S184.0 600 109.0 758S-80.0 958 -100.0 1070"/>
+    <path d="M-196.6 -60C-68.2 105 63.1 236 19.4 384S186.2 600 112.3 758S-72.8 958 -92.8 1070"/>
+    <path d="M-188.2 -60C-61.4 105 66.2 236 23.8 384S188.4 600 115.6 758S-65.6 958 -85.6 1070"/>
+    <path d="M-179.8 -60C-54.6 105 69.3 236 28.2 384S190.6 600 118.9 758S-58.4 958 -78.4 1070"/>
+    <path d="M-171.4 -60C-47.8 105 72.4 236 32.6 384S192.8 600 122.2 758S-51.2 958 -71.2 1070"/>
+    <path d="M-163.0 -60C-41.0 105 75.5 236 37.0 384S195.0 600 125.5 758S-44.0 958 -64.0 1070"/>
+    <path d="M-154.6 -60C-34.2 105 78.6 236 41.4 384S197.2 600 128.8 758S-36.8 958 -56.8 1070"/>
+    <path d="M-146.2 -60C-27.4 105 81.7 236 45.8 384S199.4 600 132.1 758S-29.6 958 -49.6 1070"/>
+    <path d="M-137.8 -60C-20.6 105 84.8 236 50.2 384S201.6 600 135.4 758S-22.4 958 -42.4 1070"/>
+    <path d="M-129.4 -60C-13.8 105 87.9 236 54.6 384S203.8 600 138.7 758S-15.2 958 -35.2 1070"/>
+    <path d="M-121.0 -60C-7.0 105 91.0 236 59.0 384S206.0 600 142.0 758S-8.0 958 -28.0 1070"/>
+    <path d="M-112.6 -60C-0.2 105 94.1 236 63.4 384S208.2 600 145.3 758S-0.8 958 -20.8 1070"/>
+    <path d="M-104.2 -60C6.6 105 97.2 236 67.8 384S210.4 600 148.6 758S6.4 958 -13.6 1070"/>
+    <path d="M-95.8 -60C13.4 105 100.3 236 72.2 384S212.6 600 151.9 758S13.6 958 -6.4 1070"/>
+    <path d="M-87.4 -60C20.2 105 103.4 236 76.6 384S214.8 600 155.2 758S20.8 958 0.8 1070"/>
+    <path d="M-79.0 -60C27.0 105 106.5 236 81.0 384S217.0 600 158.5 758S28.0 958 8.0 1070"/>
+    <path d="M-70.6 -60C33.8 105 109.6 236 85.4 384S219.2 600 161.8 758S35.2 958 15.2 1070"/>
+    <path d="M-62.2 -60C40.6 105 112.7 236 89.8 384S221.4 600 165.1 758S42.4 958 22.4 1070"/>
+    <path d="M-53.8 -60C47.4 105 115.8 236 94.2 384S223.6 600 168.4 758S49.6 958 29.6 1070"/>
+    <path d="M-45.4 -60C54.2 105 118.9 236 98.6 384S225.8 600 171.7 758S56.8 958 36.8 1070"/>
+    <path d="M-37.0 -60C61.0 105 122.0 236 103.0 384S228.0 600 175.0 758S64.0 958 44.0 1070"/>
+    <path d="M-28.6 -60C67.8 105 125.1 236 107.4 384S230.2 600 178.3 758S71.2 958 51.2 1070"/>
+    <path d="M-20.2 -60C74.6 105 128.2 236 111.8 384S232.4 600 181.6 758S78.4 958 58.4 1070"/>
+    <path d="M-11.8 -60C81.4 105 131.3 236 116.2 384S234.6 600 184.9 758S85.6 958 65.6 1070"/>
+    <path d="M-3.4 -60C88.2 105 134.4 236 120.6 384S236.8 600 188.2 758S92.8 958 72.8 1070"/>
+    <path d="M5.0 -60C95.0 105 137.5 236 125.0 384S239.0 600 191.5 758S100.0 958 80.0 1070"/>
+    <path d="M13.4 -60C101.8 105 140.6 236 129.4 384S241.2 600 194.8 758S107.2 958 87.2 1070"/>
+    <path d="M21.8 -60C108.6 105 143.7 236 133.8 384S243.4 600 198.1 758S114.4 958 94.4 1070"/>
+    <path d="M30.2 -60C115.4 105 146.8 236 138.2 384S245.6 600 201.4 758S121.6 958 101.6 1070"/>
+    <path d="M38.6 -60C122.2 105 149.9 236 142.6 384S247.8 600 204.7 758S128.8 958 108.8 1070"/>
+    <path d="M47.0 -60C129.0 105 153.0 236 147.0 384S250.0 600 208.0 758S136.0 958 116.0 1070"/>
+    <path d="M55.4 -60C135.8 105 156.1 236 151.4 384S252.2 600 211.3 758S143.2 958 123.2 1070"/>
+    <path d="M63.8 -60C142.6 105 159.2 236 155.8 384S254.4 600 214.6 758S150.4 958 130.4 1070"/>
+    <path d="M72.2 -60C149.4 105 162.3 236 160.2 384S256.6 600 217.9 758S157.6 958 137.6 1070"/>
+  </g>
+  <g stroke="url(#orbit)" stroke-width=".65" transform="rotate(-27 1510 925)">
+    <ellipse cx="1510" cy="925" rx="250" ry="92"/>
+    <ellipse cx="1510" cy="925" rx="259" ry="102"/>
+    <ellipse cx="1510" cy="925" rx="268" ry="112"/>
+    <ellipse cx="1510" cy="925" rx="277" ry="122"/>
+    <ellipse cx="1510" cy="925" rx="286" ry="132"/>
+    <ellipse cx="1510" cy="925" rx="295" ry="142"/>
+    <ellipse cx="1510" cy="925" rx="304" ry="152"/>
+    <ellipse cx="1510" cy="925" rx="313" ry="162"/>
+    <ellipse cx="1510" cy="925" rx="322" ry="172"/>
+    <ellipse cx="1510" cy="925" rx="331" ry="182"/>
+    <ellipse cx="1510" cy="925" rx="340" ry="192"/>
+    <ellipse cx="1510" cy="925" rx="349" ry="202"/>
+    <ellipse cx="1510" cy="925" rx="358" ry="212"/>
+    <ellipse cx="1510" cy="925" rx="367" ry="222"/>
+    <ellipse cx="1510" cy="925" rx="376" ry="232"/>
+    <ellipse cx="1510" cy="925" rx="385" ry="242"/>
+    <ellipse cx="1510" cy="925" rx="394" ry="252"/>
+    <ellipse cx="1510" cy="925" rx="403" ry="262"/>
+    <ellipse cx="1510" cy="925" rx="412" ry="272"/>
+    <ellipse cx="1510" cy="925" rx="421" ry="282"/>
+    <ellipse cx="1510" cy="925" rx="430" ry="292"/>
+    <ellipse cx="1510" cy="925" rx="439" ry="302"/>
+  </g>
+  <g stroke="#83989e" stroke-width=".65" stroke-opacity=".09">
+    <circle cx="735" cy="62" r="255"/>
+    <circle cx="735" cy="62" r="257" stroke-opacity=".035"/>
+    <path d="M480 62H990M735 -193V317"/>
+    <path d="M1110 122H1590M1350 0V362"/>
+    <circle cx="1530" cy="240" r="113"/>
+  </g>
+  <g stroke="#b3bfc1" stroke-width=".7" stroke-opacity=".28">
+    <path d="M77 80h6M80 77v6"/>
+    <path d="M397 80h6M400 77v6"/>
+    <path d="M557 80h6M560 77v6"/>
+    <path d="M877 80h6M880 77v6"/>
+    <path d="M1037 80h6M1040 77v6"/>
+    <path d="M1197 80h6M1200 77v6"/>
+    <path d="M1517 80h6M1520 77v6"/>
+    <path d="M77 400h6M80 397v6"/>
+    <path d="M1517 400h6M1520 397v6"/>
+    <path d="M77 720h6M80 717v6"/>
+    <path d="M1517 720h6M1520 717v6"/>
+    <path d="M237 880h6M240 877v6"/>
+    <path d="M557 880h6M560 877v6"/>
+    <path d="M877 880h6M880 877v6"/>
+    <path d="M1197 880h6M1200 877v6"/>
+  </g>
+  <g>
+    <circle cx="150" cy="80" r="21" fill="url(#ember)"/>
+    <circle cx="1360" cy="860" r="25" fill="url(#ember)"/>
+    <circle cx="32" cy="940" r="17" fill="url(#ember)"/>
+    <circle cx="1450" cy="105" r="18" fill="url(#ember)"/>
+    <path fill="#ee8244" fill-opacity=".85" d="M147.5 77.5h5v5h-5zM1357.5 857.5h5v5h-5z"/>
+    <path fill="#ee8244" fill-opacity=".55" d="M30.5 938.5h3v3h-3zM1448 103h4v4h-4z"/>
+    <path stroke="#dc8d5c" stroke-opacity=".15" stroke-width=".6" d="M150 39v29M150 92v29M109 80h29M162 80h29M1319 860h29M1372 860h29"/>
+  </g>
+</svg>

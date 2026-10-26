@@ -6,12 +6,12 @@ maplibregl.setWorkerUrl(workerUrl);
 /** Land colours are shared with the dashboard legend. Heights in the Three.js
  * layer are schematic selection slabs, never surveyed terrain/building heights. */
 export const LAND_COLORS = {
-  arable: '#c7b35d', grass: '#91b37c', forest: '#427562', water: '#67a9be',
-  building: '#c8876a', garden: '#a3ba75', other: '#9e9d92',
+  arable: '#86a5c0', grass: '#b5c6d6', forest: '#426583', water: '#416b82',
+  building: '#d7e3ec', garden: '#9eb5c9', other: '#6b8399',
 };
 export const INTEREST_COLORS = {
-  confirmed: '#d39547', considering: '#c4b17b', conditional: '#b57669', lease: '#719ba8',
-  multiple: '#a777af', none: '#b7beb1',
+  confirmed: '#ef945b', considering: '#9cb4c8', conditional: '#b49baf', lease: '#71bacd',
+  multiple: '#c4a3d2', none: '#607788',
 };
 
 const EMPTY = { type: 'FeatureCollection', features: [] };
@@ -73,7 +73,7 @@ export function createParcelMap(container, { onSelect = () => {}, onRelationSele
     bearing: 0,
     attributionControl: false,
     renderWorldCopies: false,
-    canvasContextAttributes: { antialias: true },
+    canvasContextAttributes: { antialias: true, alpha: true },
     style: {
       version: 8,
       // Local, validated PBFs include Latin and Czech glyphs. The former public
@@ -84,9 +84,9 @@ export function createParcelMap(container, { onSelect = () => {}, onRelationSele
         ortho: { type: 'raster', tiles: [ORTHO], tileSize: 256, maxzoom: 20, attribution: 'Ortofoto © <a href="https://geoportal.cuzk.gov.cz/" target="_blank" rel="noopener">ČÚZK</a>' },
       },
       layers: [
-        { id: 'background', type: 'background', paint: { 'background-color': '#e9e8dd' } },
-        { id: 'basemap-osm', type: 'raster', source: 'osm', paint: { 'raster-saturation': -0.65, 'raster-contrast': -0.07, 'raster-opacity': 0.88, 'raster-fade-duration': 180 } },
-        { id: 'basemap-ortho', type: 'raster', source: 'ortho', layout: { visibility: 'none' }, paint: { 'raster-saturation': -0.18, 'raster-fade-duration': 180 } },
+        { id: 'background', type: 'background', paint: { 'background-color': '#10171d', 'background-opacity': 0.22 } },
+        { id: 'basemap-osm', type: 'raster', source: 'osm', layout: { visibility: 'none' }, paint: { 'raster-saturation': -1, 'raster-brightness-max': 0.36, 'raster-opacity': 0, 'raster-fade-duration': 180 } },
+        { id: 'basemap-ortho', type: 'raster', source: 'ortho', layout: { visibility: 'none' }, paint: { 'raster-saturation': -0.38, 'raster-brightness-max': 0.72, 'raster-fade-duration': 180 } },
       ],
     },
   });
@@ -130,7 +130,7 @@ export function createParcelMap(container, { onSelect = () => {}, onRelationSele
         mesh.frustumCulled = false;
         mesh.position.z = 0.25;
         mesh.userData = { id, properties: feature.properties, slab: true };
-        const edge = new THREE.LineSegments(new THREE.EdgesGeometry(geometry, 12), new THREE.LineBasicMaterial({ color: '#526553', transparent: true, opacity: 0.88, depthTest: true }));
+        const edge = new THREE.LineSegments(new THREE.EdgesGeometry(geometry, 12), new THREE.LineBasicMaterial({ color: '#d7e7f3', transparent: true, opacity: 0.78, depthTest: true }));
         edge.frustumCulled = false;
         edge.position.z = 0.25;
         edge.userData = { id, edge: true };
@@ -168,7 +168,7 @@ export function createParcelMap(container, { onSelect = () => {}, onRelationSele
       // One merged geometry keeps thousands of genuine building footprints cheap.
       // Seven metres is a diagrammatic height only; no surveyed height is implied.
       const geometry = new THREE.ExtrudeGeometry(shapes, { depth: 7, bevelEnabled: false, steps: 1, curveSegments: 1 });
-      contextBuildingMesh = new THREE.Mesh(geometry, new THREE.MeshBasicMaterial({ color: '#bc9b84', transparent: true, opacity: 0.85, side: THREE.DoubleSide }));
+      contextBuildingMesh = new THREE.Mesh(geometry, new THREE.MeshBasicMaterial({ color: '#b4c6d4', transparent: true, opacity: 0.82, side: THREE.DoubleSide }));
       contextBuildingMesh.position.z = 0.1;
       contextBuildingMesh.frustumCulled = false;
       contextBuildingMesh.visible = contextVisible && is3D;
@@ -186,9 +186,9 @@ export function createParcelMap(container, { onSelect = () => {}, onRelationSele
         // Schematic raised surfaces clarify parcel selection, not physical height.
         object.scale.z = selected ? 16 : 2;
         if (object.userData.slab) {
-          object.material.color.set(selected ? '#f1c86b' : meshColour(object.userData.properties));
+          object.material.color.set(selected ? '#f0925b' : meshColour(object.userData.properties));
           object.material.opacity = selected ? 0.98 : 0.86;
-        } else object.material.color.set(selected ? '#5b4622' : '#53654e');
+        } else object.material.color.set(selected ? '#ffc99b' : '#d3e4f1');
       }
     }
     if (ready && !destroyed) map.triggerRepaint();
@@ -247,16 +247,19 @@ export function createParcelMap(container, { onSelect = () => {}, onRelationSele
 
   function cameraPadding(withDetail = Boolean(selectedId)) {
     const width = map.getContainer().clientWidth;
+    if (width <= 700) return { top: 365, right: 20, bottom: 130, left: 20 };
     // Reserve space for the open property card so a fitted parcel remains in
     // the uncovered map. Smaller screens provide a closeable full-width card.
-    const right = withDetail && width > 720 ? Math.min(400, Math.round(width * 0.5)) : 80;
-    return { top: 85, right, bottom: 90, left: 80 };
+    const right = withDetail && width > 720 ? Math.min(400, Math.round(width * 0.38)) : width > 720 ? 70 : 30;
+    const left = width > 1000 ? 280 : width > 720 ? 245 : 30;
+    return { top: width > 720 ? 110 : 75, right, bottom: 90, left };
   }
 
   function fit(ids, options = {}) {
     const idSet = ids ? new Set(ids.map(String)) : visibleIds;
     const features = idSet ? collection.features.filter((f) => idSet.has(String(f.properties.id))) : collection.features;
-    const bounds = boundsOf(features);
+    const wholePortfolio = collection.features.length > 0 && (!idSet || collection.features.every((f) => idSet.has(String(f.properties.id))));
+    const bounds = boundsOf(wholePortfolio && context.zones?.features?.length ? context.zones.features : features);
     if (!bounds) return;
     map.fitBounds(bounds, { padding: cameraPadding(), maxZoom: features.length === 1 ? 17 : 15.4, duration: 850, ...options });
   }
@@ -265,37 +268,41 @@ export function createParcelMap(container, { onSelect = () => {}, onRelationSele
     if (destroyed) return;
     for (const [key, data] of Object.entries(context)) map.addSource(`context-${key}`, { type: 'geojson', data: data || EMPTY, tolerance: key === 'parcels' ? 0.2 : 0.05 });
     map.addLayer({ id: 'context-parcels-fill', type: 'fill', source: 'context-parcels', paint: {
-      'fill-color': ['match', ['get', 'landType'], 'Forest', '#426d55', 'WaterArea', '#79b5cc', 'ArableGround', '#d5c995', 'Grassland', '#a8bb8e', 'Garden', '#acbe80', 'BuiltUpArea', '#c8a88c', '#dfdccf'],
-      'fill-opacity': ['match', ['get', 'landType'], 'Forest', 0.2, 'WaterArea', 0.33, 0.08],
+      'fill-color': ['match', ['get', 'landType'], 'Forest', '#34536a', 'WaterArea', '#2c586e', 'ArableGround', '#63849d', 'Grassland', '#829aac', 'Garden', '#748ea4', 'BuiltUpArea', '#c0cfdb', '#566b7b'],
+      'fill-opacity': ['match', ['get', 'landType'], 'Forest', 0.34, 'WaterArea', 0.5, 'BuiltUpArea', 0.28, 0.2],
     } });
-    map.addLayer({ id: 'context-zones-line', type: 'line', source: 'context-zones', paint: { 'line-color': '#77877a', 'line-width': 1.6, 'line-dasharray': [4, 4], 'line-opacity': 0.65 } });
-    map.addLayer({ id: 'context-buildings-fill', type: 'fill', source: 'context-buildings', minzoom: 13.5, paint: { 'fill-color': '#ac927e', 'fill-opacity': 0.6, 'fill-outline-color': '#8f7968' } });
+    map.addLayer({ id: 'context-parcels-line', type: 'line', source: 'context-parcels', minzoom: 9, paint: { 'line-color': '#a5bfd0', 'line-width': ['interpolate', ['linear'], ['zoom'], 9, 0.25, 15, 0.6], 'line-opacity': ['interpolate', ['linear'], ['zoom'], 9, 0.1, 14, 0.22] } });
+    map.addLayer({ id: 'context-zones-line', type: 'line', source: 'context-zones', paint: { 'line-color': '#9fb7c9', 'line-width': 0.9, 'line-dasharray': [7, 5], 'line-opacity': 0.5 } });
+    map.addLayer({ id: 'context-buildings-fill', type: 'fill', source: 'context-buildings', minzoom: 13.5, paint: { 'fill-color': '#bacddc', 'fill-opacity': 0.65, 'fill-outline-color': '#d5e2ec' } });
+    map.addLayer({ id: 'context-place-labels', type: 'symbol', source: 'context-places', minzoom: 13, filter: ['==', ['get', 'type'], 'MunicipalityName'], layout: {
+      'text-field': ['coalesce', ['get', 'name'], ''], 'text-font': ['Noto Sans Regular'], 'text-size': ['match', ['get', 'type'], 'MunicipalityName', 12, 10], 'text-padding': 20,
+    }, paint: { 'text-color': '#d9e5ed', 'text-halo-color': '#10171d', 'text-halo-width': 1.5, 'text-opacity': 0.95 } });
     map.addSource(SOURCE, { type: 'geojson', data: collection, promoteId: 'id', tolerance: 0 });
     map.addLayer({ id: IDS.fill, type: 'fill', source: SOURCE, paint: {
-      'fill-color': ['case', ['boolean', ['feature-state', 'selected'], false], '#eac16d', colourExpression(colourMode)],
-      'fill-opacity': ['case', ['boolean', ['feature-state', 'selected'], false], 0.78, ['boolean', ['feature-state', 'hover'], false], 0.7, 0.49],
+      'fill-color': ['case', ['boolean', ['feature-state', 'selected'], false], '#ef945b', colourExpression(colourMode)],
+      'fill-opacity': ['case', ['boolean', ['feature-state', 'selected'], false], 0.86, ['boolean', ['feature-state', 'hover'], false], 0.96, 0.83],
     } });
     map.addLayer({ id: IDS.line, type: 'line', source: SOURCE, paint: {
-      'line-color': ['match', ['get', 'kind'], 'forest', '#365d4e', 'water', '#367c99', 'building', '#925d49', '#677354'],
-      'line-width': ['interpolate', ['linear'], ['zoom'], 8, 1, 15, 1.8, 19, 2.4], 'line-opacity': 0.9,
+      'line-color': '#e2edf5',
+      'line-width': ['interpolate', ['linear'], ['zoom'], 8, 0.55, 15, 1.1, 19, 1.6], 'line-opacity': 0.85,
     } });
     map.addLayer({ id: IDS.interest, type: 'line', source: SOURCE, paint: {
-      'line-color': colourExpression('interest'), 'line-width': ['interpolate', ['linear'], ['zoom'], 9, 2.2, 16, 3.4], 'line-opacity': 0.98,
+      'line-color': colourExpression('interest'), 'line-width': ['interpolate', ['linear'], ['zoom'], 9, 1.2, 16, 2.3], 'line-opacity': 0.98,
     } });
     map.addLayer(customLayer);
-    map.addLayer({ id: IDS.selected, type: 'line', source: SOURCE, filter: ['==', ['get', 'id'], '__none__'], paint: { 'line-color': '#c27d27', 'line-width': 4, 'line-opacity': 1 } });
+    map.addLayer({ id: IDS.selected, type: 'line', source: SOURCE, filter: ['==', ['get', 'id'], '__none__'], paint: { 'line-color': '#ffc49b', 'line-width': 3, 'line-opacity': 1 } });
     map.addLayer({ id: IDS.labels, type: 'symbol', source: SOURCE, minzoom: 13.1, layout: {
       'text-field': ['coalesce', ['get', 'number'], ''], 'text-font': ['Noto Sans Regular'], 'text-size': ['interpolate', ['linear'], ['zoom'], 13, 10, 17, 12], 'text-padding': 6,
-    }, paint: { 'text-color': '#283d32', 'text-halo-color': '#faf8ef', 'text-halo-width': 1.6, 'text-halo-blur': 0.5 } });
+    }, paint: { 'text-color': '#f2f6f9', 'text-halo-color': '#152b3c', 'text-halo-width': 1.5, 'text-halo-blur': 0.3 } });
     map.addSource('parcel-relations', { type: 'geojson', data: relations, promoteId: 'id', tolerance: 0 });
-    map.addLayer({ id: 'relation-fill', type: 'fill', source: 'parcel-relations', paint: { 'fill-color': '#438fbc', 'fill-opacity': 0.16 } });
-    map.addLayer({ id: 'relation-line', type: 'line', source: 'parcel-relations', paint: { 'line-color': '#337ea8', 'line-width': 2.8, 'line-dasharray': [3, 2], 'line-opacity': 1 } });
+    map.addLayer({ id: 'relation-fill', type: 'fill', source: 'parcel-relations', paint: { 'fill-color': '#71bacd', 'fill-opacity': 0.22 } });
+    map.addLayer({ id: 'relation-line', type: 'line', source: 'parcel-relations', paint: { 'line-color': '#8bcfe0', 'line-width': 2, 'line-dasharray': [3, 2], 'line-opacity': 1 } });
     map.addLayer({ id: 'relation-label', type: 'symbol', source: 'parcel-relations', minzoom: 13.3, layout: {
       'text-field': ['concat', ['get', 'number'], ' · pacht'], 'text-font': ['Noto Sans Regular'], 'text-size': 11, 'text-padding': 8,
-    }, paint: { 'text-color': '#28658c', 'text-halo-color': '#f7fbfc', 'text-halo-width': 1.7 } });
+    }, paint: { 'text-color': '#c2eaf2', 'text-halo-color': '#15232c', 'text-halo-width': 1.7 } });
     map.addLayer({ id: 'context-zone-labels', type: 'symbol', source: 'context-zones', minzoom: 9, maxzoom: 13.2, layout: {
       'text-field': ['coalesce', ['get', 'ku'], ''], 'text-font': ['Noto Sans Regular'], 'text-size': 12, 'text-letter-spacing': 0.06, 'text-transform': 'uppercase', 'text-padding': 20,
-    }, paint: { 'text-color': '#526454', 'text-halo-color': '#f7f5ed', 'text-halo-width': 2 } });
+    }, paint: { 'text-color': '#cad8e2', 'text-halo-color': '#111a21', 'text-halo-width': 1.8, 'text-opacity': 0.86 } });
     ready = true;
     applyData();
     setContextVisibility();
@@ -342,7 +349,7 @@ export function createParcelMap(container, { onSelect = () => {}, onRelationSele
   }
 
   function setContextVisibility() {
-    if (ready) for (const layer of ['context-parcels-fill', 'context-zones-line', 'context-buildings-fill', 'context-zone-labels']) {
+    if (ready) for (const layer of ['context-parcels-fill', 'context-parcels-line', 'context-zones-line', 'context-buildings-fill', 'context-zone-labels', 'context-place-labels']) {
       map.setLayoutProperty(layer, 'visibility', contextVisible ? 'visible' : 'none');
     }
     refreshMeshes();
@@ -367,10 +374,13 @@ export function createParcelMap(container, { onSelect = () => {}, onRelationSele
       if (bounds) map.fitBounds(bounds, { padding: cameraPadding(true), maxZoom: 16.5, duration: 850 });
     },
     setContext(data = {}) {
+      const firstZones = Boolean(data.zones?.features?.length && !context.zones?.features?.length);
       context = { ...context, ...Object.fromEntries(Object.entries(data).filter(([, value]) => value?.type === 'FeatureCollection')) };
       if (ready) {
         for (const [key, data] of Object.entries(context)) map.getSource(`context-${key}`)?.setData(data || EMPTY);
         rebuildContextMeshes();
+        const wholePortfolio = collection.features.length > 0 && (!visibleIds || collection.features.every((f) => visibleIds.has(String(f.properties.id))));
+        if (firstZones && !selectedId && wholePortfolio) fit(undefined, { duration: 0 });
         map.triggerRepaint();
       }
     },
@@ -385,7 +395,7 @@ export function createParcelMap(container, { onSelect = () => {}, onRelationSele
     setBasemap(mode) {
       basemap = mode === 'satellite' || mode === 'ortho' || mode === 'orthophoto' ? 'ortho' : 'map';
       if (!ready) { map.once('load', () => this.setBasemap(mode)); return; }
-      map.setLayoutProperty('basemap-osm', 'visibility', basemap === 'map' ? 'visible' : 'none');
+      map.setLayoutProperty('basemap-osm', 'visibility', 'none');
       map.setLayoutProperty('basemap-ortho', 'visibility', basemap === 'ortho' ? 'visible' : 'none');
     },
     set3D(value) {
@@ -395,7 +405,7 @@ export function createParcelMap(container, { onSelect = () => {}, onRelationSele
     },
     setColorMode(mode) {
       colourMode = mode === 'interest' ? 'interest' : 'land';
-      if (ready) map.setPaintProperty(IDS.fill, 'fill-color', ['case', ['boolean', ['feature-state', 'selected'], false], '#eac16d', colourExpression(colourMode)]);
+      if (ready) map.setPaintProperty(IDS.fill, 'fill-color', ['case', ['boolean', ['feature-state', 'selected'], false], '#ef945b', colourExpression(colourMode)]);
       refreshMeshes();
     },
     zoomIn() { map.zoomIn({ duration: 250 }); },

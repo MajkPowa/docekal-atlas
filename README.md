@@ -2,6 +2,8 @@
 
 Soukromý interaktivní dashboard v češtině. MapLibre poskytuje geografický mapový pohled, Three.js vykresluje skutečné parcelní půdorysy a schematické objemy budov. Žádné hranice nejsou generované nebo odhadnuté.
 
+Vizuální provedení podle dodané reference: tmavá skleněná mapová plocha, modrá parcelní paleta, jemné bílé hranice a oranžové akcenty. Filtry a lokality jsou ve vysouvacím panelu. Dekorativní vektorové kontury pozadí neznázorňují parcelní data; samotná mapa zachovává přesné zdrojové geometrie.
+
 ## Spuštění
 
 ```powershell
