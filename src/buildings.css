@@ -2,3 +2,4 @@
 .area-name,.area-info{display:block}.area-info{line-height:1.4}.area-text{line-height:1.35}
 .explorer{overflow-y:auto;scrollbar-width:thin;scrollbar-color:#d9e2cf transparent}.facts .fact span{line-height:1.5}.building-section>.section-top>.saved-note{max-width:220px;text-align:right;line-height:1.5}.price-note{font-size:10px;color:#92a083;line-height:1.6;margin:15px 0}
 @media(max-width:700px){.area-info{display:none}.explorer{overflow-y:visible}.building-section>.section-top>.saved-note{max-width:125px;font-size:8px}}
+@media(max-width:700px){.filter-group:has(#buyer-filter){display:grid;grid-template-columns:1fr 1fr;gap:7px}.filter-group:has(#buyer-filter) .select-field{max-width:none;margin-top:0!important}.filter-group:has(#buyer-filter) .context-toggle{grid-column:1/-1;justify-content:flex-start;gap:8px;padding-top:3px}}
