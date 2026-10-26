@@ -1,0 +1,369 @@
+/* Shared reading scale. Loaded after the atlas and media layouts. */
+:root {
+  --font-ui: 'Roboto', Arial, sans-serif;
+  --text-primary: #e8eff3;
+  --text-secondary: #b1c3ce;
+  --text-muted: #9aafbd;
+  font-family: var(--font-ui);
+  font-synthesis: none;
+  text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body { font-family: var(--font-ui); font-size: 15px; line-height: 1.55; }
+body :is(button, input, select, textarea, h1, h2, h3, h4, h5, h6,
+  .metric-value, .metric-value small, .buyer-stats strong, .overview-card .fact > strong) {
+  font-family: var(--font-ui);
+}
+button, input, select, textarea { line-height: 1.4; }
+button, a, input, select, textarea { -webkit-tap-highlight-color: transparent; }
+button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible,
+textarea:focus-visible, summary:focus-visible { outline: 2px solid #eeb58a; outline-offset: 3px; }
+::selection { color: #fff; background: #456b82; }
+
+/* Navigation and the page hierarchy. */
+.brand-wordmark { gap: 3px; }
+.brand-wordmark strong { font-size: 14px; letter-spacing: .17em; font-weight: 600; }
+.brand-wordmark span { font-size: 11px; color: var(--text-muted); letter-spacing: .06em; }
+.rail-btn { font-size: 13px; letter-spacing: .01em; color: var(--text-secondary); min-height: 40px; }
+.rail-btn svg { width: 16px; height: 16px; }
+.rail-btn.active { font-weight: 600; }
+.source-date { font-size: 12px; color: var(--text-muted); }
+.btn, .rail .top-right .btn { font-size: 13px; min-height: 40px; padding: 9px 12px; }
+.eyebrow { font-size: 11px; letter-spacing: .14em; color: var(--text-muted); font-weight: 500; }
+h1 { font-size: 32px; line-height: 1.2; font-weight: 500; letter-spacing: -.65px; }
+h1 span { color: #a0b2bd; }
+.subtitle { font-size: 14px; line-height: 1.65; color: var(--text-secondary); letter-spacing: 0; }
+.heading-badge { font-size: 12px; color: var(--text-secondary); }
+.section-title h2, .table-section .section-title h2, .building-section .section-title h2 {
+  font-size: 16px; font-weight: 500; line-height: 1.4; letter-spacing: 0;
+}
+.count-pill { font-size: 11px; color: var(--text-secondary); padding: 3px 6px; }
+.saved-note { font-size: 12px; color: var(--text-muted); line-height: 1.6; }
+
+/* Leave room for the larger map labels and controls. */
+.map-section { min-height: 830px; }
+.map-section > .section-top { height: 42px; }
+.map-section .section-title h2 { font-size: 15px; }
+.segmented button, .map-section .section-actions .btn,
+.map-tools .segmented button { font-size: 12px; min-height: 36px; padding: 8px 11px; }
+.segmented button { color: #bbceda; }
+.atlas-summary { width: 238px; top: 109px; bottom: 180px; }
+.atlas-summary::before { inset: -32px -28px -35px; }
+.summary-intro { font-size: 11px; color: #b5c7cf; letter-spacing: .08em; margin-bottom: 16px; }
+.metric { padding: 14px 0 12px; }
+.metric-label { font-size: 13px; color: #c2cfd5; letter-spacing: 0; line-height: 1.4; }
+.metric-value { font-size: 38px; font-weight: 400; letter-spacing: -1.2px; margin: 7px 0; }
+.metric:first-child .metric-value { font-size: 55px; letter-spacing: -2px; }
+.metric-value small { font-size: 13px; color: #bdcbd4; }
+.metric-note { font-size: 12px; line-height: 1.55; color: #b0c1cb; max-width: 236px; }
+.metric-accent .metric-value small { color: #d5c7af; }
+.explorer { width: 316px; top: 86px; bottom: 76px; padding: 20px 16px; }
+.search input { font-size: 14px; padding-top: 12px; padding-bottom: 12px; }
+.search input::placeholder { color: #a2b6c2; }
+.explorer-title { font-size: 12px; color: #b1c5d1; letter-spacing: .06em; }
+.explorer-title button { font-size: 12px; color: #c2d0d8; }
+.area-btn { padding: 11px 8px; }
+.area-name { font-size: 14px; font-weight: 500; color: #e0e9ee; }
+.area-info { font-size: 12px; color: #a0b6c5; line-height: 1.6; }
+.area-count { font-size: 12px; color: #c0d3de; }
+.chip { font-size: 12px; padding: 7px 9px; color: #bdcfd9; min-height: 34px; }
+.select-field, .filter-group:has(#buyer-filter) .select-field { font-size: 14px; color: #cfdee7; min-height: 42px; }
+.context-toggle, .filter-group:has(#buyer-filter) .context-toggle { font-size: 13px; color: #b4cad8; line-height: 1.55; }
+.explorer-bottom { font-size: 12px; line-height: 1.7; color: #a2bbcb; }
+.result-search button { font-size: 14px; min-height: 42px; }
+.map-caption { max-width: 242px; bottom: 65px; }
+.map-caption strong { font-size: 11px; color: #b3c8d5; margin-bottom: 10px; letter-spacing: .08em; }
+.legend { grid-template-columns: repeat(2, 1fr); gap: 8px 10px; }
+.legend span { font-size: 11px; color: #c1d4e0; gap: 6px; }
+.dot { width: 7px; height: 7px; }
+.map-tools { left: 301px; bottom: 53px; }
+.map-compass { bottom: 53px; }
+.map-control { height: 36px; width: 36px; }
+.map-control svg { width: 16px; height: 16px; }
+.map-status { font-size: 11px; color: #c1d4df; right: 79px; bottom: 105px; }
+.map-info { height: 35px; font-size: 11px; color: #b1c5d2; }
+.map-info svg { height: 13px; width: 13px; }
+.maplibregl-ctrl-attrib { font: 11px/1.5 var(--font-ui) !important; color: #b6c9d5 !important; }
+.maplibregl-ctrl-attrib a { color: #c5d8e4 !important; }
+.maplibregl-ctrl-bottom-left { left: 296px !important; bottom: 38px !important; }
+.maplibregl-ctrl-bottom-right { bottom: 36px !important; }
+.maplibregl-ctrl-scale { font: 11px/1.5 var(--font-ui) !important; color: #c3d5df !important; }
+
+/* Parcel preview uses an opaque light surface. */
+.detail { width: 350px; top: 86px; bottom: 95px; right: 79px; }
+.detail-kicker { font-size: 11px; color: #536d69; letter-spacing: .06em; }
+.detail h2 { font-size: 28px; font-weight: 500; line-height: 1.25; }
+.detail-sub { font-size: 13px; color: #536d66; line-height: 1.5; }
+.detail-kind { font-size: 14px; color: #405d5b; }
+.fact span, .detail .fact span { font-size: 12px; color: #526b64; line-height: 1.5; }
+.fact strong, .detail .fact strong { font-size: 15px; font-weight: 500; }
+.detail h3 { font-size: 12px; color: #536f68; letter-spacing: .04em; }
+.detail-notes, .detail .price-note, .detail .saved-note { font-size: 13px; color: #536b63; line-height: 1.7; }
+.detail textarea, .detail input { font-size: 14px; }
+.detail .btn { font-size: 13px; }
+.property-media-preview-heading, .property-media-preview-heading b { font-size: 12px; color: #49665f; }
+.property-media-preview p, .property-media-preview > small { font-size: 12px; line-height: 1.65; color: #536d64; }
+.property-full-detail { font-size: 14px; min-height: 44px; }
+
+/* Tables and the other overview panels. */
+.building-section > .section-top > .saved-note { font-size: 12px; color: var(--text-muted); }
+.building-cards { grid-template-columns: repeat(6, minmax(190px, 1fr)); }
+.building-card h3 { font-size: 15px; font-weight: 500; line-height: 1.5; color: #dce7ee; }
+.building-card-body > span { font-size: 12px; line-height: 1.6; color: #a5bece; }
+.building-card-body strong { font-size: 14px; color: #d3e3ed; }
+.building-photo span, .building-photo .building-photo-count { font-size: 11px; padding: 4px 6px; }
+th { font-size: 12px; font-weight: 500; color: #b5cbd9; padding: 14px 17px; letter-spacing: .02em; }
+td { font-size: 14px; color: #b4cbdc; padding: 16px 17px; line-height: 1.5; }
+td strong { font-weight: 500; }
+.status-tag { font-size: 11px; line-height: 1.5; padding: 4px 7px; }
+.status-tag.none { color: #abc3d2; }
+.status-tag.considering, .status-tag.conditional { color: #d2b79e; }
+.table-bottom { font-size: 12px; color: #a1bdcf; line-height: 1.6; }
+.empty-state { font-size: 14px; color: #abc5d7; }
+.table-section .select-field { font-size: 13px; }
+.buyer-title h2 { font-size: 21px; font-weight: 500; }
+.buyer-title p, .buyer-card p { font-size: 14px; line-height: 1.7; color: #b1c6d3; }
+.buyer-stats span { font-size: 13px; color: #a7c0d1; }
+.buyer-parcels button { font-size: 13px; min-height: 36px; color: #c0d5e3; }
+.buyer-warning, .info-callout { font-size: 14px; line-height: 1.7; }
+.overview-card h2 { font-size: 19px; font-weight: 500; }
+.bar-row { font-size: 13px; grid-template-columns: 148px 1fr 92px; line-height: 1.5; color: #b2c9d9; }
+.bar-row strong { font-weight: 500; }
+.overview-note { font-size: 13px; line-height: 1.7; color: #aac3d5; }
+.overview-card .fact > span { font-size: 13px; color: #a7c2d5; }
+.overview-card .fact strong { font-size: 16px; }
+.main-footer { font-size: 11px; line-height: 1.8; color: #97b2c5; letter-spacing: 0; }
+.main-footer a { color: #bed3e1; }
+.toast { font-size: 14px; line-height: 1.6; }
+.modal-head h2 { font-size: 23px; font-weight: 500; }
+.modal-body p { font-size: 15px; line-height: 1.75; color: #4c6960; }
+.modal-body h3 { font-size: 17px; color: #405e58; }
+.source-row strong { font-size: 15px; }
+.source-row p, .source-row a { font-size: 14px; }
+
+/* Full dossiers and all photo captions share the same reading scale. */
+.asset-eyebrow, .pv-eyebrow { font-size: 11px; letter-spacing: .09em; color: #afc5d3; }
+.asset-header h2 { font-size: 30px; font-weight: 500; line-height: 1.3; }
+.asset-header p { font-size: 14px; line-height: 1.65; color: #b4c8d4; }
+.asset-header > button, .pv-header-actions > button { height: 42px; width: 42px; }
+.asset-hero-type, .asset-hero-expand, .media-thumb > span { font-size: 11px; line-height: 1.4; }
+.asset-media-group h3 { font-size: 14px; font-weight: 500; color: #cbdee8; }
+.asset-media-group > div > span { font-size: 12px; color: #a6c0d0; }
+.asset-subheading { font-size: 15px; font-weight: 500; }
+.asset-facts dt { font-size: 12px; line-height: 1.5; color: #a4bfce; }
+.asset-facts dd { font-size: 15px; line-height: 1.6; }
+.asset-notice, .media-context-warning { font-size: 13px; line-height: 1.7; color: #e0bf98; }
+.asset-muted, .asset-small { font-size: 13px; line-height: 1.7; color: #adc4d2; }
+.asset-primary { font-size: 14px; min-height: 44px; }
+.asset-info-section h3 { font-size: 18px; font-weight: 500; }
+.asset-info-section p { font-size: 14px; line-height: 1.75; color: #b3cbd9; }
+.asset-data-list > div { grid-template-columns: 135px 1fr; padding: 15px 0; }
+.asset-data-list dt { font-size: 13px; color: #a3c1d4; line-height: 1.65; }
+.asset-data-list dd { font-size: 14px; line-height: 1.75; color: #d0e0ea; overflow-wrap: anywhere; }
+.asset-data-list dd small, .asset-citation { font-size: 12px; line-height: 1.6; color: #9fbed1; }
+.asset-related-table th { font-size: 12px; color: #abc8da; }
+.asset-related-table td { font-size: 14px; line-height: 1.6; }
+.asset-interest > strong { font-size: 15px; font-weight: 500; }
+.asset-interest > span { font-size: 13px; }
+.asset-interest > small { font-size: 12px; color: #a8c3d4; line-height: 1.65; }
+.asset-interest p { font-size: 13px; }
+.asset-parcel-chips button { font-size: 13px; padding: 8px 10px; color: #c4dce9; }
+.asset-parcel-chips button span { font-size: 11px; color: #a4c1d4; }
+.asset-link-list > button, .pv-info .asset-link-list > button { font-size: 14px; padding: 13px; }
+.asset-link-list small { font-size: 12px; color: #a2c1d4; }
+.asset-raw-data, .asset-raw-data p, .asset-raw-data > div > span { font-size: 13px; line-height: 1.7; color: #b2cede; }
+.asset-source-footer { font-size: 12px; line-height: 1.75; color: #a4c1d4; }
+.asset-no-photo h3 { font-size: 17px; font-weight: 500; }
+.asset-no-photo p { font-size: 14px; color: #aac4d4; line-height: 1.7; }
+.photo-index-header h2 { font-size: 30px; font-weight: 500; }
+.photo-index-header p { font-size: 14px; line-height: 1.7; color: #afc6d6; max-width: 670px; }
+.photo-index-stats button { min-width: 135px; }
+.photo-index-stats span { font-size: 12px; line-height: 1.5; color: #acc8db; }
+.photo-index-tools input { font-size: 15px; color: #d0e2ec; }
+.photo-index-tools input::placeholder { color: #9ebcd0; }
+.photo-index-tools select { font-size: 14px; padding: 11px; }
+.photo-index-tools > span { font-size: 12px; color: #a4c1d5; }
+.photo-index-image > span { font-size: 11px; }
+.photo-index-caption h3 { font-size: 15px; line-height: 1.5; font-weight: 500; color: #d3e4ef; }
+.photo-index-caption p { font-size: 13px; line-height: 1.6; color: #a9c7db; }
+.photo-index-caption > span { font-size: 12px; color: #9abbd2; }
+.photo-index-more button { font-size: 14px; min-height: 44px; }
+.photo-index-more span, .photo-coverage-note { font-size: 13px; color: #aac7da; line-height: 1.7; }
+.photo-index-empty { font-size: 15px; }
+.pv-header h2 { font-size: 22px; font-weight: 500; line-height: 1.4; }
+.pv-header-actions > span { font-size: 14px; }
+.pv-kind, .media-kind-label { font-size: 12px; }
+.pv-layout { grid-template-columns: minmax(0, 1fr) 320px; }
+.pv-toolbar button, .pv-toolbar a { font-size: 12px; min-height: 40px; padding: 8px; color: #c2d8e7; }
+.pv-filmstrip span { font-size: 10px; }
+.pv-info h3 { font-size: 19px; font-weight: 500; line-height: 1.5; }
+.pv-info h4 { font-size: 14px; font-weight: 500; color: #c2dceb; }
+.pv-info p { font-size: 14px; line-height: 1.75; color: #b1cddd; }
+.pv-facts dt { font-size: 12px; color: #a3c2d8; }
+.pv-facts dd { font-size: 14px; line-height: 1.6; color: #cce1ef; overflow-wrap: anywhere; }
+.pv-facts a, .media-source-link { font-size: 13px; }
+.pv-info .media-context-warning { font-size: 13px; line-height: 1.7; }
+
+@media (max-width: 1200px) {
+  .source-date { display: none; }
+  .rail { gap: 9px; }
+  .brand-wordmark { margin-right: 8px; }
+  .rail-btn { padding: 0 10px; }
+  .atlas-summary { left: 24px; width: 225px; }
+  .metric-note { max-width: 220px; }
+  .map-caption { left: 24px; max-width: 226px; }
+  .map-tools { left: 275px; }
+  .maplibregl-ctrl-bottom-left { left: 270px !important; }
+  .photo-index-header { flex-direction: column; align-items: flex-start; gap: 20px; }
+  .photo-index-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .pv-layout { grid-template-columns: minmax(0, 1fr) 280px; }
+}
+
+@media (max-width: 950px) {
+  .rail { padding: 0 20px; }
+  .rail-btn { font-size: 12px; padding: 0 8px; }
+  .rail .top-right .btn { font-size: 12px; padding: 8px; }
+  .rail .top-right .btn svg { width: 15px; }
+  .brand-wordmark strong { font-size: 12px; }
+  .brand-wordmark span { font-size: 10px; }
+  .rail-nav { gap: 1px; }
+  .map-section .section-actions .btn { font-size: 12px; padding: 8px; }
+  .section-actions .segmented button { font-size: 12px; }
+  .detail { width: 330px; right: 72px; }
+  .bar-row { grid-template-columns: 133px 1fr 85px; gap: 8px; }
+  .asset-data-list { grid-template-columns: 1fr; }
+  .pv-layout { grid-template-columns: minmax(0, 1fr) 250px; }
+  .pv-toolbar { flex-wrap: wrap; }
+}
+
+@media (max-width: 700px) {
+  body { font-size: 15px; }
+  .rail { height: 72px; padding: 0 14px; }
+  .brand-wordmark strong { font-size: 13px; }
+  .brand-wordmark span { font-size: 10px; }
+  .rail .top-right .btn { font-size: 12px; min-height: 40px; padding: 8px; }
+  .rail .top-right .btn svg { height: 15px; width: 15px; }
+  .rail-nav { height: 65px; gap: 3px !important; padding: 6px 8px !important; }
+  .rail-btn { height: 51px; flex-direction: column; font-size: 12px !important; gap: 3px !important; padding: 0 5px !important; }
+  .rail-btn svg { height: 17px; width: 17px; }
+  .workspace { padding-bottom: 65px; }
+  .page-heading { margin-bottom: 22px; }
+  h1 { font-size: 28px; }
+  .subtitle { font-size: 13px; line-height: 1.6; }
+  .eyebrow { font-size: 10px; }
+  .map-section { height: 880px; min-height: 880px; }
+  .map-section > .section-top { left: 18px; right: 18px; height: 40px; }
+  .map-section .section-title h2 { font-size: 14px; }
+  .map-section .section-actions .btn, .map-section .section-actions .atlas-filter-button { font-size: 12px; padding: 7px; min-height: 36px; }
+  .map-section .section-actions .btn svg { width: 15px; height: 15px; }
+  .map-section > .section-top .section-actions .segmented { top: 54px; }
+  .section-actions .segmented button { font-size: 12px; min-height: 36px; }
+  .atlas-summary { left: 18px; right: 18px; width: auto; top: 137px; bottom: auto; }
+  .summary-intro { font-size: 11px; margin-bottom: 15px; }
+  .metrics { gap: 0 16px; }
+  .metric { padding: 15px 0 13px; }
+  .metric-label { font-size: 12px; }
+  .metric-value { font-size: 33px; margin: 7px 0; }
+  .metric:first-child .metric-value { font-size: 40px; }
+  .metric-value small { font-size: 12px; margin-left: 3px; }
+  .metric-note { font-size: 11px; line-height: 1.55; max-width: 100%; }
+  .map-caption { left: 18px; right: 18px; bottom: 132px; max-width: none; }
+  .map-caption strong { font-size: 10px; margin-bottom: 8px; }
+  .legend { display: flex; gap: 8px 13px; }
+  .legend span { font-size: 11px; }
+  .map-tools { left: 18px; bottom: 58px; }
+  .map-tools .segmented button { font-size: 11px; padding: 7px 8px; }
+  .map-compass { right: 18px; bottom: 58px; }
+  .map-control { height: 36px; width: 36px; }
+  .map-info { font-size: 10px; padding: 0 18px; height: 36px; }
+  .maplibregl-ctrl-bottom-left { left: auto !important; right: 68px !important; bottom: 42px !important; }
+  .maplibregl-ctrl-scale { font-size: 10px !important; }
+  .maplibregl-ctrl-attrib { font-size: 10px !important; }
+  .maplibregl-ctrl-bottom-right { bottom: 37px !important; }
+  .explorer { top: 110px; left: 15px; right: 15px; bottom: 105px; width: auto; }
+  .search input, .select-field, .filter-group:has(#buyer-filter) .select-field,
+  .detail input, .detail textarea, .photo-index-tools input, .photo-index-tools select { font-size: 16px; }
+  .area-name { font-size: 14px; }
+  .area-info { font-size: 12px; }
+  .area-count { font-size: 12px; }
+  .explorer-title { font-size: 12px; }
+  .chip { font-size: 12px !important; padding: 7px 9px !important; }
+  .filter-group:has(#buyer-filter) { grid-template-columns: 1fr; }
+  .filter-group:has(#buyer-filter) .context-toggle { font-size: 13px; }
+  .detail { left: 15px; right: 15px; width: auto; top: 110px; bottom: 105px; }
+  .detail h2 { font-size: 26px; }
+  .detail-sub { font-size: 13px; }
+  .detail-foot { padding: 12px 14px; }
+  .building-section > .section-top, .table-section > .section-top { height: auto; min-height: 66px; padding: 14px; gap: 10px; flex-wrap: wrap; }
+  .building-section > .section-top > .saved-note { font-size: 11px; max-width: 150px; }
+  .building-section .section-title h2, .table-section .section-title h2 { font-size: 15px; }
+  .building-cards { grid-template-columns: repeat(6, 210px); }
+  .building-photo { height: 130px; }
+  .table-section .select-field { font-size: 14px; max-width: 190px; }
+  .table-section .btn { font-size: 13px; min-height: 42px; }
+  th { font-size: 12px; padding: 13px; }
+  td { font-size: 14px; padding: 15px 13px; }
+  .table-bottom { font-size: 12px; gap: 14px; align-items: flex-start; }
+  .buyer-title h2 { font-size: 20px; }
+  .buyer-title p, .buyer-card p { font-size: 14px; }
+  .buyer-parcels button { font-size: 13px; }
+  .info-callout { font-size: 14px; }
+  .overview-card h2 { font-size: 19px; }
+  .bar-row { font-size: 12px; grid-template-columns: 120px 1fr 80px; gap: 7px; }
+  .main-footer { font-size: 11px; }
+  .toast { font-size: 14px; bottom: 80px; }
+  .modal-head h2 { font-size: 21px; }
+  .modal-body p, .source-row strong { font-size: 15px; }
+  .photo-index-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .photo-index-header h2 { font-size: 28px; }
+  .photo-index-header p { font-size: 14px; }
+  .photo-index-stats { gap: 8px; }
+  .photo-index-stats button { min-width: 0; padding: 12px; }
+  .photo-index-stats span { font-size: 11px; }
+  .photo-index-tools select { max-width: 100%; min-width: 0; }
+  .photo-index-tools > span { font-size: 12px; }
+  .photo-index-caption { padding: 12px; }
+  .photo-index-caption h3 { font-size: 14px; }
+  .photo-index-caption p { font-size: 12px; }
+  .photo-index-caption > span { font-size: 11px; }
+  .photo-index-image > span { font-size: 10px; }
+  .photo-index-more button { font-size: 14px; }
+  .photo-index-more span, .photo-coverage-note { font-size: 13px; }
+}
+
+@media (max-width: 600px) {
+  .asset-header { padding: 18px; }
+  .asset-header h2 { font-size: 26px; }
+  .asset-header p { font-size: 13px; line-height: 1.65; }
+  .asset-eyebrow { font-size: 10px; }
+  .asset-hero-type, .asset-hero-expand { font-size: 10px; }
+  .asset-media-group h3 { font-size: 13px; }
+  .asset-media-group > div > span { font-size: 11px; }
+  .asset-facts dt { font-size: 12px; }
+  .asset-facts dd { font-size: 14px; }
+  .asset-data-list > div { grid-template-columns: 105px 1fr; gap: 12px; }
+  .asset-data-list dt { font-size: 12px; }
+  .asset-data-list dd { font-size: 14px; }
+  .asset-info-section h3 { font-size: 18px; }
+  .asset-info-section p { font-size: 14px; }
+  .asset-related-table td { font-size: 14px; }
+  .asset-related-table th { font-size: 12px; }
+  .asset-source-footer { font-size: 12px; }
+  .asset-no-photo h3 { font-size: 17px; }
+  .asset-no-photo p { font-size: 14px; }
+  .pv-layout { display: flex; }
+  .pv-header { min-height: 91px; }
+  .pv-eyebrow { font-size: 10px; }
+  .pv-header h2 { font-size: 17px; line-height: 1.4; }
+  .pv-header-actions { gap: 10px; }
+  .pv-header-actions > span { font-size: 12px; }
+  .pv-toolbar button, .pv-toolbar a { font-size: 12px; min-height: 42px; padding: 7px; }
+  .pv-toolbar svg { height: 15px; width: 15px; }
+  .pv-toolbar #pv-zoom { min-width: 52px; }
+  .pv-kind { font-size: 11px; }
+  .pv-info h3 { font-size: 19px; }
+  .pv-info p { font-size: 14px; }
+  .pv-facts dt { font-size: 12px; }
+  .pv-facts dd { font-size: 14px; }
+}

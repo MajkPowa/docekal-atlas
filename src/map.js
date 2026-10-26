@@ -76,9 +76,7 @@ export function createParcelMap(container, { onSelect = () => {}, onRelationSele
     canvasContextAttributes: { antialias: true, alpha: true },
     style: {
       version: 8,
-      // Local, validated PBFs include Latin and Czech glyphs. The former public
-      // OpenMapTiles endpoint currently returns an HTML page with HTTP 200.
-      glyphs: `${window.location.origin}/fonts/{fontstack}/{range}.pbf`,
+      // Without a glyphs URL, MapLibre renders labels from the local Roboto font.
       sources: {
         osm: { type: 'raster', tiles: ['https://tile.openstreetmap.org/{z}/{x}/{y}.png'], tileSize: 256, maxzoom: 19, attribution: '© <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>' },
         ortho: { type: 'raster', tiles: [ORTHO], tileSize: 256, maxzoom: 20, attribution: 'Ortofoto © <a href="https://geoportal.cuzk.gov.cz/" target="_blank" rel="noopener">ČÚZK</a>' },
@@ -275,7 +273,7 @@ export function createParcelMap(container, { onSelect = () => {}, onRelationSele
     map.addLayer({ id: 'context-zones-line', type: 'line', source: 'context-zones', paint: { 'line-color': '#9fb7c9', 'line-width': 0.9, 'line-dasharray': [7, 5], 'line-opacity': 0.5 } });
     map.addLayer({ id: 'context-buildings-fill', type: 'fill', source: 'context-buildings', minzoom: 13.5, paint: { 'fill-color': '#bacddc', 'fill-opacity': 0.65, 'fill-outline-color': '#d5e2ec' } });
     map.addLayer({ id: 'context-place-labels', type: 'symbol', source: 'context-places', minzoom: 13, filter: ['==', ['get', 'type'], 'MunicipalityName'], layout: {
-      'text-field': ['coalesce', ['get', 'name'], ''], 'text-font': ['Noto Sans Regular'], 'text-size': ['match', ['get', 'type'], 'MunicipalityName', 12, 10], 'text-padding': 20,
+      'text-field': ['coalesce', ['get', 'name'], ''], 'text-font': ['Roboto'], 'text-size': ['match', ['get', 'type'], 'MunicipalityName', 12, 10], 'text-padding': 20,
     }, paint: { 'text-color': '#d9e5ed', 'text-halo-color': '#10171d', 'text-halo-width': 1.5, 'text-opacity': 0.95 } });
     map.addSource(SOURCE, { type: 'geojson', data: collection, promoteId: 'id', tolerance: 0 });
     map.addLayer({ id: IDS.fill, type: 'fill', source: SOURCE, paint: {
@@ -292,16 +290,16 @@ export function createParcelMap(container, { onSelect = () => {}, onRelationSele
     map.addLayer(customLayer);
     map.addLayer({ id: IDS.selected, type: 'line', source: SOURCE, filter: ['==', ['get', 'id'], '__none__'], paint: { 'line-color': '#ffc49b', 'line-width': 3, 'line-opacity': 1 } });
     map.addLayer({ id: IDS.labels, type: 'symbol', source: SOURCE, minzoom: 13.1, layout: {
-      'text-field': ['coalesce', ['get', 'number'], ''], 'text-font': ['Noto Sans Regular'], 'text-size': ['interpolate', ['linear'], ['zoom'], 13, 10, 17, 12], 'text-padding': 6,
+      'text-field': ['coalesce', ['get', 'number'], ''], 'text-font': ['Roboto'], 'text-size': ['interpolate', ['linear'], ['zoom'], 13, 10, 17, 12], 'text-padding': 6,
     }, paint: { 'text-color': '#f2f6f9', 'text-halo-color': '#152b3c', 'text-halo-width': 1.5, 'text-halo-blur': 0.3 } });
     map.addSource('parcel-relations', { type: 'geojson', data: relations, promoteId: 'id', tolerance: 0 });
     map.addLayer({ id: 'relation-fill', type: 'fill', source: 'parcel-relations', paint: { 'fill-color': '#71bacd', 'fill-opacity': 0.22 } });
     map.addLayer({ id: 'relation-line', type: 'line', source: 'parcel-relations', paint: { 'line-color': '#8bcfe0', 'line-width': 2, 'line-dasharray': [3, 2], 'line-opacity': 1 } });
     map.addLayer({ id: 'relation-label', type: 'symbol', source: 'parcel-relations', minzoom: 13.3, layout: {
-      'text-field': ['concat', ['get', 'number'], ' · pacht'], 'text-font': ['Noto Sans Regular'], 'text-size': 11, 'text-padding': 8,
+      'text-field': ['concat', ['get', 'number'], ' · pacht'], 'text-font': ['Roboto'], 'text-size': 11, 'text-padding': 8,
     }, paint: { 'text-color': '#c2eaf2', 'text-halo-color': '#15232c', 'text-halo-width': 1.7 } });
     map.addLayer({ id: 'context-zone-labels', type: 'symbol', source: 'context-zones', minzoom: 9, maxzoom: 13.2, layout: {
-      'text-field': ['coalesce', ['get', 'ku'], ''], 'text-font': ['Noto Sans Regular'], 'text-size': 12, 'text-letter-spacing': 0.06, 'text-transform': 'uppercase', 'text-padding': 20,
+      'text-field': ['coalesce', ['get', 'ku'], ''], 'text-font': ['Roboto'], 'text-size': 12, 'text-letter-spacing': 0.06, 'text-transform': 'uppercase', 'text-padding': 20,
     }, paint: { 'text-color': '#cad8e2', 'text-halo-color': '#111a21', 'text-halo-width': 1.8, 'text-opacity': 0.86 } });
     ready = true;
     applyData();

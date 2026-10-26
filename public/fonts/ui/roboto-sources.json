@@ -1,0 +1,42 @@
+{
+  "family": "Roboto",
+  "cssSource": "https://fonts.googleapis.com/css2?family=Roboto:wght@400..800&display=swap",
+  "licenseSource": "https://raw.githubusercontent.com/google/fonts/main/ofl/roboto/OFL.txt",
+  "metadataSource": "https://raw.githubusercontent.com/google/fonts/main/ofl/roboto/METADATA.pb",
+  "fontStyle": "normal",
+  "fontWeight": "400 800",
+  "fonts": [
+    {
+      "subset": "latin-ext",
+      "file": "roboto-0.woff2",
+      "source": "https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3KUBGEe.woff2",
+      "bytes": 29392,
+      "sha256": "cedb374b05a35034cf96db185db4eeb8f8ce49e1a56197673702ff11b5533d6e",
+      "cmapGlyphs": 193,
+      "axes": [
+        {
+          "tag": "wght",
+          "min": 100.0,
+          "max": 900.0
+        }
+      ]
+    },
+    {
+      "subset": "latin",
+      "file": "roboto-1.woff2",
+      "source": "https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2",
+      "bytes": 43136,
+      "sha256": "1404ca348bd75ef836f4dd8b6f2cc719458642d1237c368296b2fc652dca47dc",
+      "cmapGlyphs": 229,
+      "axes": [
+        {
+          "tag": "wght",
+          "min": 100.0,
+          "max": 900.0
+        }
+      ]
+    }
+  ],
+  "czechCharactersChecked": "aábcčdďeéěfghiíjklmnňoópqrřsštťuúůvwxyýzžAÁBCČDĎEÉĚFGHIÍJKLMNŇOÓPQRŘSŠTŤUÚŮVWXYÝZŽ0123456789",
+  "missingCzechCharacters": ""
+}

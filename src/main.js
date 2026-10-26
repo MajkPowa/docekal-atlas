@@ -3,10 +3,11 @@ const icons = {Images, ArrowUpRight, Bookmark, Box, ChartNoAxesCombined, Chevron
 import { createParcelMap, LAND_COLORS, INTEREST_COLORS } from './map.js';
 import { buyers, getInterests, statusLabels, interestRecords, normalizeArea } from './interests.js';
 import { createAssetLibrary } from './assets.js';
-import './fonts.css';
+import './roboto.css';
 import './style.css';
 import './buildings.css';
 import './reference.css';
+import './typography.css';
 
 const $=(s,root=document)=>root.querySelector(s);
 const $$=(s,root=document)=>[...root.querySelectorAll(s)];
