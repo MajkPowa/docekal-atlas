@@ -1,0 +1,59 @@
+{
+  "downloadedAt": "2026-10-26",
+  "sources": [
+    {
+      "kind": "CPX",
+      "kuCode": "643564",
+      "ku": "Horní Meziříčko",
+      "url": "https://services.cuzk.gov.cz/gml/inspire/cpx/epsg-4258/643564.zip"
+    },
+    {
+      "kind": "CPX",
+      "kuCode": "691402",
+      "ku": "Malý Jeníkov",
+      "url": "https://services.cuzk.gov.cz/gml/inspire/cpx/epsg-4258/691402.zip"
+    },
+    {
+      "kind": "CPX",
+      "kuCode": "756962",
+      "ku": "Strmilov",
+      "url": "https://services.cuzk.gov.cz/gml/inspire/cpx/epsg-4258/756962.zip"
+    },
+    {
+      "kind": "CPX",
+      "kuCode": "779601",
+      "ku": "Velký Jeníkov",
+      "url": "https://services.cuzk.gov.cz/gml/inspire/cpx/epsg-4258/779601.zip"
+    },
+    {
+      "kind": "CPX",
+      "kuCode": "711071",
+      "ku": "Olšany u Dačic",
+      "url": "https://services.cuzk.gov.cz/gml/inspire/cpx/epsg-4258/711071.zip"
+    },
+    {
+      "kind": "BU",
+      "municipalityCode": "547239",
+      "url": "https://services.cuzk.gov.cz/gml/inspire/bu/epsg-4258/547239.zip"
+    },
+    {
+      "kind": "BU",
+      "municipalityCode": "547263",
+      "url": "https://services.cuzk.gov.cz/gml/inspire/bu/epsg-4258/547263.zip"
+    },
+    {
+      "kind": "BU",
+      "municipalityCode": "598658",
+      "url": "https://services.cuzk.gov.cz/gml/inspire/bu/epsg-4258/598658.zip"
+    }
+  ],
+  "coordinateNote": "Zdroj ETRS89 EPSG:4258 (osa latitude,longitude), převeden pouze sled os na longitude,latitude. Vrcholy nesimplifikovány. Webová mapa orientační, není náhradou právní kontroly KN.",
+  "counts": {
+    "Horní Meziříčko": 837,
+    "Malý Jeníkov": 753,
+    "Strmilov": 5464,
+    "Velký Jeníkov": 918,
+    "Olšany u Dačic": 947
+  },
+  "buildingCount": 1110
+}
