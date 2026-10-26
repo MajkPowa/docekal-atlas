@@ -1,6 +1,6 @@
 # Dočekal · Atlas majetku
 
-Soukromý interaktivní dashboard v češtině. MapLibre poskytuje geografický mapový pohled, Three.js vykresluje skutečné parcelní půdorysy a schematické objemy budov. Žádné hranice nejsou generované nebo odhadnuté.
+Interaktivní dashboard v češtině. MapLibre poskytuje geografický mapový pohled, Three.js vykresluje skutečné parcelní půdorysy a schematické objemy budov. Žádné hranice nejsou generované nebo odhadnuté.
 
 Vizuální provedení podle dodané reference: tmavá skleněná mapová plocha, modrá parcelní paleta, jemné bílé hranice a oranžové akcenty. Filtry a lokality jsou ve vysouvacím panelu. Dekorativní vektorové kontury pozadí neznázorňují parcelní data; samotná mapa zachovává přesné zdrojové geometrie.
 
@@ -12,6 +12,14 @@ npm run dev
 ```
 
 Produkční sestavení: `npm run build`. Výstup v `dist/` je statický web. Při lokálním spuštění je potřeba HTTP server, nikoli přímé otevření index.html ze souboru. Online podklady OSM a ortofoto ČÚZK vyžadují připojení. Geometrie, data, fotografie, PDF a mapové fonty jsou součástí projektu.
+
+## GitHub Pages
+
+Repozitář: `MajkPowa/docekal-atlas`. Publikační cesta je `/docekal-atlas/`. Workflow `.github/workflows/pages.yml` používá Node.js 24, instalaci z lockfile, testy a build Vite; poté nahraje celé `dist/` včetně PDF, fotografií, geometrií, hranic a fontů. Nasazení se spustí po push do `main` nebo ručně přes GitHub Actions, pokud je repository variable `PAGES_ENABLED=true` a Pages je nastavené na GitHub Actions.
+
+`DEPLOY_BASE_PATH` určuje kořen webu. Výchozí `/` podporuje původní hosting i místní vývoj. Build pro Pages nastavuje `/docekal-atlas/`; média z JSON manifestů se překládají stejným resolverem. `VITE_PUBLIC_HOSTING=true` v publikovaném buildu vypíná označení soukromého hostingu. Samotná statická aplikace nemá přihlášení.
+
+Zájmy a poznámky uložené v prohlížeči na jiné doméně se na adresu GitHub Pages automaticky nepřenášejí. Původní doména si své lokální záznamy ponechá; CSV export slouží jako záloha.
 
 ## Data a přesnost
 
