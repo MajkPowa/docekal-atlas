@@ -2,6 +2,7 @@ import { createIcons, ArrowUpRight, Bookmark, Box, ChartNoAxesCombined, ChevronR
 const icons = {ArrowUpRight, Bookmark, Box, ChartNoAxesCombined, ChevronRight, CircleHelp, Compass, Download, Expand, ExternalLink, FileText, Files, FolderOpen, GitCompareArrows, Handshake, House, Info, Landmark, Layers2, Layers3, ListFilter, LockKeyhole, Mail, Map, MapPin, MapPinCheck, MapPinOff, MapPinned, Minus, MousePointer2, Plus, Route, Scan, Search, SquareDashed, UsersRound, X};
 import { createParcelMap, LAND_COLORS, INTEREST_COLORS } from './map.js';
 import { buyers, getInterests, statusLabels, interestRecords, normalizeArea } from './interests.js';
+import './fonts.css';
 import './style.css';
 import './buildings.css';
 import './reference.css';
