@@ -40,6 +40,12 @@ Manifesty: `public/data/photo-catalog.json`, `parcel-media.json`, `building-deta
 
 Vlastní zájemce, poznámky a výběr se ukládají pouze v localStorage aktuálního prohlížeče a domény. Export CSV zahrnuje aktuální filtr i vlastní poznámky. Přesun mezi doménami ani sdílení těchto vlastních záznamů není automatické.
 
+Tlačítko „Přidat nový zájem“ umožňuje hromadný zápis k označeným či filtrovaným parcelám nebo ke vloženému seznamu v jednom katastru. Náhled vyznačí duplicity, neznámé položky a existující zájmy; vynechání nerozpoznaných položek vyžaduje výslovné označení. Lze evidovat více vlastních zájemců, stav a společnou poznámku. Původní jednotlivé textové záznamy se načtou beze ztráty. Poslední přidání lze v dané relaci vrátit, jednotlivý vlastní zájem odstranit v detailu. CSV zahrnuje i stavy, data a poznámky nových zájmů.
+
+Vyhledávání přímo nad mapou prochází celý soubor bez ohledu na aktivní filtry. Rozpozná parcelu s katastrem, stavební čísla, LV, lokalitu i název nebo popis domu, funguje bez diakritiky a nabízí ovládání šipkami a Enter. Výběr návrhu přiblíží přesné dostupné geometrie; nezmapované parcely zůstávají označené k ověření.
+
 ## Kontrola
 
 Data byla porovnána se soupisem, cenovými tabulkami a závěrem PDF. Chybějící parcely jsou jednotlivě ověřené WFS dotazy. `public/data/interest-audit.json` a `geometry-status.json` uchovávají audit. Produkční build a kontrola závislostí musí projít před publikací. Zdrojové PDF a veřejné rozhodnutí SPÚ lze otevřít přímo z aplikace.
+
+Testy evidence a vyhledávání: `node scripts/interest-store.test.mjs` a `node scripts/parcel-search.test.mjs`. V prohlížeči byl ověřen dávkový zápis vedle původního zájmu, vrácení dávky, zachování po obnovení stránky, odstranění jednotlivého záznamu, výběr z tabulky a mobilní vyhledání LV.

@@ -245,12 +245,12 @@ export function createParcelMap(container, { onSelect = () => {}, onRelationSele
 
   function cameraPadding(withDetail = Boolean(selectedId)) {
     const width = map.getContainer().clientWidth;
-    if (width <= 700) return { top: 365, right: 20, bottom: 130, left: 20 };
+    if (width <= 700) return { top: 565, right: 20, bottom: 165, left: 20 };
     // Reserve space for the open property card so a fitted parcel remains in
     // the uncovered map. Smaller screens provide a closeable full-width card.
     const right = withDetail && width > 720 ? Math.min(400, Math.round(width * 0.38)) : width > 720 ? 70 : 30;
     const left = width > 1000 ? 280 : width > 720 ? 245 : 30;
-    return { top: width > 720 ? 110 : 75, right, bottom: 90, left };
+    return { top: width > 720 ? 205 : 75, right, bottom: 100, left };
   }
 
   function fit(ids, options = {}) {
